@@ -1,0 +1,23 @@
+# Site settings
+title: Ket Labs
+email: ashehu@ket-labs.com
+description: > # this means to ignore newlines until "baseurl:"
+ Get a data science upgrade for your team, research lab or personal project. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.ket-labs.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:  
+
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: /ignited_projects/:year/:month/:title
+#job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
+
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
