@@ -5,5 +5,5 @@ permalink: /contact/
 ---
 
 Andi Shehu, PhD        
-[andi.qshehu@gmail.com](mailto:andi.qshehu@gmail.com)
+[ashehu@ket-labs.com](mailto:ashehu@ket-labs.com)
 
