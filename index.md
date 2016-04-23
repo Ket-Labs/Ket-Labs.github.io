@@ -15,6 +15,8 @@ Upgrade your research lab to help scientists make better research. Keep track of
 * Feature selection
 * Dimensionality Reduction
 * Text analytics
+* Access data
+* Scalable data mining
 
 ## Presenting and Reporting
 * Elegant graphs
