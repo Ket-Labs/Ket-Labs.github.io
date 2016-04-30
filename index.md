@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Traditional Science | Data Science &rang;
+title:  Traditional Science | Data Science 
 permalink: /
 ---    
 
