@@ -1,6 +1,6 @@
 ---
 layout: page
-title: KL &lang; Traditional Science | Data Science &rang;
+title:  Traditional Science | Data Science &rang;
 permalink: /
 ---    
 
