@@ -7,7 +7,7 @@ permalink: /
 __Ket Labs is devoted to bridging the gap between traditional science research and modern day data science methodologies.__ 
 
 
- * Researchers in various fields get an upgrade to more efficient and modern data analytic methodologies. This improves their research performance while the transition to industry is made easier should they choose to do so.
+ * Researchers in various fields get an upgrade to more efficient and modern data analytic methodologies. This improves their research performance while the transition to industry is made easier should they choose to do so....
 
  * Companies are constantly looking for talent with deep domain expertise who can carry out data science projects using open source technologies.    
  
