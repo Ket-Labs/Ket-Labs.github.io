@@ -4,7 +4,7 @@ title: < Traditional Science | Data Science >
 permalink: /
 ---    
 
-__At Ket Labs we are devoted to bridging the gap between traditional science research and modern day data science tools__
+__At Ket Labs we are devoted to bridging the gap between traditional science research and modern day data science tools__ 
 
  * Researchers in various fields often work with data using outdated or not efficient tools, limiting performance and possibilities to transition to industry.
  * Industrial companies are looking for scientists with first hands experience in up to date technologies.
