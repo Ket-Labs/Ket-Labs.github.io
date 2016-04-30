@@ -4,36 +4,31 @@ title:
 permalink: /
 ---    
 
-## Devoted to bridging the gap between traditional science research and modern day data science tools
+## Traditional Science <-> Data Science
 
-Upgrade your research lab to help scientists make better research. Keep track of collaborative research through version control tools such as Git and Github. Analyze datasets using open source softwares to have access to a wide range of machine learning libraries.  Present results with interactive graphs to better communicate scientific findings. We have experience working in a wide range of fields such as Medicine, Phsycology, Physics and Chemistry.    
+_At Ket Labs we are devoted to bridging the gap between traditional science research and modern day data science tools_
 
-### At Ket Labs we custom tailor the training to meet specific needs of groups in Academia or industry.    
+ * Researchers in various fields often work with data using outdated tools, limiting performance.
+ * Industrial companies are looking for scientists with first hands experience in up to date technologies.
 
-## Data Mining
-* Extracting knowlege from unstructured data
-* Feature selection
-* Dimensionality Reduction
+## For researchers
+
+Learn and use modern data science tools currently in demand. Grow you professional potential solving your scientific tasks faster. Share results in a clear interactive form with any auditory. At Ket Labs we custom tailor the training to meet specific needs of groups in Academia or Industry.
+
+## For industries
+
+Please feel free to contact us to participate. Make a presentation about tools your use or make. Interact with top researchers in various fields trained to use modern data science tools. Or just to discuss potential ideas in a cafeteria.
+
+### Data Mining
+* Extracting knowledge from unstructured data
 * Text analytics
-* Access data
+* Image processing
 * Scalable data mining
 
-## Presenting and Reporting
-* Elegant graphs
-* Interactive data exploration
-* Dashboards
-* Dynamicly generated reports and presentations   
-* Reproducible Research  
+### Presenting and Reporting
+* Elegant graphs, Interactive data exploration
+* Dashboards, Dynamically generated reports and presentations   
 
-
-## Machine learning   
-* Regression, Classification
-* Clustering, Recomendation systems
-* Linear models, 
-* Tree-based models
-* SVM
-* Regularization
-* H2O (scalable machine learning)
-
-
-### Please feel free to contact us for further information.      
+### Machine learning   
+* Regression, Classification, Clustering for "inventive" applications
+* Scalable machine learning
