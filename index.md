@@ -1,10 +1,11 @@
 ---
 layout: page
-title:
+title: Traditional Science | Data Science
 permalink: /
 ---    
 
-Traditional Science | Data Science      
+      
+
 __Ket Labs is devoted to bridging the gap between traditional science research and modern day data science methodologies.__ 
 
 
