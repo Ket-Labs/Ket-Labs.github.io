@@ -23,4 +23,3 @@ EDS bootcamp is designed to bring PhD level researchers up to speed in the moder
   as a web application (R Shiny)
   
 **Main tools, libraries and algorithms:**   R Studio, dplyr, tidyr, ggplot2, sparkR, H2O, tm package, R Markdown, Shiny, caret package, Git.
-
