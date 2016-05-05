@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-**Andi Shehu**     
+**Andi Shehu, PhD**     
 
 695 Park Ave   
 New York, NY 10065    

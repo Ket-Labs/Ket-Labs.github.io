@@ -19,5 +19,5 @@ We can be of service to researchers working on a data analytic project with meth
 
 ## Value proposition to industry:       
 
-We welcome the participation of data science teams from industry. You can share insights and hurdles from the buisness perspective while interacting with top researchers who are practicing data science in their domain expertise. Feel free to reach out for collaborations or to learn more.       
+We welcome the participation of data science teams from industry. You can share insights and hurdles from the business perspective while interacting with top researchers who are practicing data science in their domain expertise. Feel free to reach out for collaborations or to learn more.       
    

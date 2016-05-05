@@ -37,7 +37,7 @@ Andi's interest in data science comes from interdisciplinary fields such as medi
 
 
 **Denis Sharoukhov**       
-*Associate Data Scientist*   
+*Data Scientist*   
 
 Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open souurce programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.      
 *Education:*  PhD Candidate in Physics at The Graduate Center, The City University of New York (CUNY). M.A. in Physics from Hunter College of CUNY.   
