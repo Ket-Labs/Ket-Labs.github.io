@@ -3,8 +3,9 @@ layout: page
 title: "Data Science"
 permalink: /data_science/
 ---
-
+<p style="text-align: justify;">
 Data Science can be seen as a collection of methods and technologies allowing to formalize and optimize data workflow. Driven by industry and academia recent development have lead to the unveiling of new opportunities in knowledge extraction and communication. The team at Ket Labs specializes in the following sub-fields of data science: 
+</p>
 
 ## Data Mining
 * Extracting knowledge from unstructured data.
