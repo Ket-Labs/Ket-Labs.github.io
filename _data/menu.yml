@@ -6,12 +6,7 @@
 
 - title: "Bootcamp"
   href: "/bootcamp/"
-  subcategories:
-  - subtitle: "Bootcamp"
-    subhref: "/bootcamp/"
-  - subtitle: "Apply for Bootcamp"
-    subhref: "/bootcamp/bootcamp_apply/"
-    
+
 - title: "Ignited Projects"
   href: "/ignited_projects/"
   
