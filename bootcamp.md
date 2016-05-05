@@ -4,7 +4,7 @@ title: Essentials of Data Science
 permalink: /bootcamp/
 ---
 
-<p style="text-align: right;">
+<p style="text-align: right;  font-weight: bold;">
 <a href="javascript:void( window.open('https://www.formpl.us/form/5742721182466048/', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate</a>
 </p>
 
