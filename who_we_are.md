@@ -3,9 +3,9 @@ layout: page
 title: "Who we are"
 permalink: /who_we_are/
 ---
-<p style="text-align: justify;">
+
 Ket Labs is run by a distinguished team of researchers and consultants with deep domain knowledge who teach, mentor and apply data science methodologies to various fields. Actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. The team works closely with research institutions and data driven companies in delivering  modern solutions for data analytic needs.        
-</p>
+
 
 ![](/images/Sergey.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;width: 150px;"}{:target="_blank"}
 
