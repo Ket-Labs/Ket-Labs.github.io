@@ -27,7 +27,7 @@ of Mathematics and Science (PRISMS). At PRISMS he has been in charge of the deve
 **Andi Shehu, PhD**     
 *Principal Consultant*
 
-Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, music, spirits and higher education. He is deeply involved in growing the data science community in New York through teachings, mentoring and consulting.     
+Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, music and higher education. He is deeply involved in growing the data science community in New York through teachings, mentoring and consulting.     
 *Education* Theoretical Physics PhD from The Graduate Center of City University of New York.   
 [LinkedIn](https://www.linkedin.com/in/andi-shehu-phd-63304466)
 
