@@ -74,3 +74,8 @@ SVM with radial basis functions still performs well. Again, the proportion of mi
 For future development, we want to focus on earlier events, and even attempt to predict with features set before the match starts. This includes the choices of champions, and some estimation of the level of each player used internally by the game to match players in teams of similar levels. Given the popularity of the game, for any theory of what constitute a winning combination, there is a supporter available online. However, a less argued for feature appears to be the distribution of wards in a match. A ward allows a team to see parts of the map beyond the vision granted by its players. This would make for an interesting element to study.
 
 The codes are available on [github](https://github.com/vincentqb/league-of-legends).
+
+
+
+<iframe src="https://github.com/vincentqb/league-of-legends/blob/master/README.Rmd" class="gde-frame" style="width:85%; height:300px; border: none;" scrolling="no"></iframe>
+
