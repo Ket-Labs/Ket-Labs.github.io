@@ -130,11 +130,11 @@
   <article class="post-content">
     <p>Competitive video games, known as eSports, are becoming big, and League of Legends (LoL) is a leading example. In 2015, the worldwide championship was watched by 36 million people – and the winning team netted one million dollars. On a daily basis, the game has 27 million unique players with a concurrent players peak of over seven millions. eSport is big.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/world_championship_2015.jpg" alt="" /></p>
+<p><img src="figures/world_championship_2015.jpg" alt="League of Legends" style="width: 400px;" /></p>
 
 <p>LoL is in the category of Multiplayer Online Battle Arena (MOBA) games, i.e. video games played online and featuring teams fighting each other. In a match of LoL, two teams of five players compete to destroy each other’s castle. Each player controls a character, called champion, with various abilities, while achieving high levels of experience and gaining gold allowing further development of the champion during a match. A team then hopes to develop more quickly to gain the upper hand to destroy the other team’s defense and eventually castle.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/game_example.jpg" alt="" /></p>
+<p><img src="figures/game_example.jpg" alt="Gameplay" style="width: 400px;" /></p>
 
 <p>Below, we present an analysis of games played in order to understand features that enable prediction of the winning team while the game progresses. This can be applied to ensuring fairness of the two teams’ composition and development. This can also be applied to betting as the game unfold.</p>
 
@@ -142,11 +142,11 @@
 
 <h2 id="summoners-rift">Summoner’s Rift</h2>
 
-<p>The game unfolds on a map called Summoner’s Rift. The team in the lower left corner is the blue team, and the other is the red team. Each of the two teams start in their respective castle, and need to destroy the enemy’s defense and reach the castle in the opposite corner before the enemy team does the same. There are three paths connecting the castles, and the zones in between are collectively called the jungle. Most of the early action happens outside of the jungle, as can be seen in the density map below.</p>
+<p>The game unfolds on a map called Summoner’s Rift. The team in the lower left corner is the blue team, and the other is the red team. Each team tries to destroy the enemy’s defenses and reach the castle in the opposite corner before the enemy team does the same. There are three paths connecting the castles, and the zones in between are collectively called the jungle. Most of the early action happens outside of the jungle, as can be seen in the density map below.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/map_20.png" alt="" /></p>
+<p><img src="figures/map_20.png" alt="Summoner's Rift" style="width: 400px;" /></p>
 
-<p>The map shows the average density of actions happening in the first 20 minutes for a match in which the red team wins. The action is concentred close to the blue side first line of defense. We do note however that there is some action happening in the jungle near specific points, the dragon and the herald, which we discuss further below.</p>
+<p>This map shows the average density of actions happening in the first 20 minutes for a match in which the red team wins. The action is concentrated close to the blue side first line of defense. We do observe however that there is some action happening in the jungle near specific points, the dragon between the middle and the bottom, and the herald between the middle and the top. The dragon and the herald are neutral objective that can be killed to gain an edge during a match.</p>
 
 <h2 id="timeline">Timeline</h2>
 
@@ -160,46 +160,49 @@
 
 <p>A team usually manage to destroy the enemy’s castle in about 33 ± 5 min. Only in very long matches do champions reach their maximal levels, as it usually takes about 45 ± 3 min to happen, and this happens in only about 6% of the matches. The timeline below shows the median time for the first of each event discussed.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/timeline.png" alt="" /></p>
+<p><img src="figures/timeline.png" alt="Timeline" style="width: 400px;" /></p>
 
 <p>Given that a team was the first to get a champion kill, the probability of winning are now above 60%. This is an important increase, since the match is probably still within the first five minutes. Being the first to get a tower or a dragon brings the probability near 70%. The first herald brings near 75%. These last events are all within the first 20 minutes of the match. Being the first to get the baron increases the chances to over 80%, but this usually happens late in the match, near 30 minutes as mentioned before.</p>
 
-<p>We summarise the effect of the first objectives in the plot below.</p>
+<p>We summarize the effect of the first objectives in the plot below.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/conditional.png" alt="" /></p>
+<p><img src="figures/conditional.png" alt="Conditional" style="width: 400px;" /></p>
+
+<p>All of these actions contribute in increasing the level of each character, thus making it more powerful. The difference between the two teams in the level of their characters is an important factor in a match. These actions also contribute in purchasing more powerful item to equip on a character. 
+The ward is a particular item that plays does not make a character more powerful and yet plays an important role in a match. A ward allows a team to see parts of the map beyond the vision granted by its players.</p>
 
 <h2 id="prediction">Prediction</h2>
 
-<p>Since the 20 minutes mark is important, we focus on the events that happen in the first 20 minutes, namely the first kill or destruction of a champion, tower, dragon, or herald. Using these features, we can set up a prediction algorithm, and obtain almost 80% accuracy with an algorithm like glmnet.</p>
+<p>Since the 20 minutes mark is important, we focus on the events that happen in that period. 
+In particular, we use as features the number of the number of kills or destructions of a champion, tower, dragon, or herald – along with the number of item purchased and the number of wards placed. 
+Using these features, we can set up a prediction algorithm, and most algorithms obtain a high level of accuracy – almost 80% accuracy with glmnet.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/methods_acc_20.png" alt="" /></p>
+<p><img src="figures/methods_acc_20.png" alt="Accuracy" style="width: 400px;" /></p>
 
-<p>The ROC curves also give an idea of the quality of the prediction. For instance, we can see that xgbLinear is overfitting our training data by giving a very high AUC for the accuracy it gives.</p>
+<p>The ROC curves also give an idea of the quality of the prediction.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/methods_roc_20.png" alt="" /></p>
+<p><img src="figures/methods_roc_20.png" alt="ROC" style="width: 400px;" /></p>
 
-<p>SVM with radial basis functions performs well. We can look at which match the algorithm misclassifies in duration. As expected, the proportion of missclassified matches increases with the duration of the match.</p>
+<p>We can try to push the prediction window down to 10 minutes instead of 20 minutes as we have been analyzing.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/misclassified_20.png" alt="" /></p>
-
-<p>We can try to push the prediction window down to 10 minutes.</p>
-
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/methods_acc_10.png" alt="" /></p>
+<p><img src="figures/methods_acc_10.png" alt="Accuracy" style="width: 400px;" /></p>
 
 <p>We can also look at the ROC curves in this case.</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/methods_roc_10.png" alt="" /></p>
+<p><img src="figures/methods_roc_10.png" alt="ROC" style="width: 400px;" /></p>
 
-<p>SVM with radial basis functions still performs well. Again, the proportion of missclassified matches increases with the duration of the match.</p>
+<p>In this case, random forest outperforms the other algorithms with its accuracy. For random forest, we can look at which matches the algorithm misclassifies when looking at both the 20 and 10 first minutes (below, on the left and right respectively).</p>
 
-<p><img src="/ignited_projects/2016_05__Vincen_Quenneville_Belair/league_of_legends_figures/misclassified_10.png" alt="" /></p>
+<p><img src="figures/misclassified_20.png" alt="Misclassified" style="width: 200px;" /> 
+<img src="figures/misclassified_10.png" alt="Misclassified" style="width: 200px;" /></p>
 
-<p>For future development, we want to focus on earlier events, and even attempt to predict with features set before the match starts. This includes the choices of champions, and some estimation of the level of each player used internally by the game to match players in teams of similar levels. Given the popularity of the game, for any theory of what constitute a winning combination, there is a supporter available online. However, a less argued for feature appears to be the distribution of wards in a match. A ward allows a team to see parts of the map beyond the vision granted by its players. This would make for an interesting element to study.</p>
+<p>These figures show the number of match classified correctly/incorrectly stacked, against the total duration of the match. As expected, the proportion of misclassified matches increases with the duration of the match.</p>
+
+<p>We can also compute the importance of each feature in the decision process of random forest. As expected, the most important features turn out to be the level reached by a team, the number of enemy defense destroyed, and the number of enemy champion killed. Surprisingly though, the number of wards placed is more important than the neutral objectives taken into account.</p>
+
+<p>For future development, we want to focus on earlier events, and even attempt to predict with features set before the match starts. This includes the choices of champions, and some estimation of the level of each player used internally by the game to match players in teams of similar levels. Given the popularity of the game, for any theory of what constitute a winning combination, there is a supporter available online. However, a less argued for feature appears to be the location of wards in a match. This would make for an interesting element to study.</p>
 
 <p>The codes are available on <a href="https://github.com/vincentqb/league-of-legends">github</a>.</p>
-
-<iframe src="https://github.com/vincentqb/league-of-legends/blob/master/README.Rmd" class="gde-frame" style="width:85%; height:300px; border: none;" scrolling="no"></iframe>
-
 
   </article>
 

@@ -5,11 +5,12 @@ permalink: /ignited_projects/
 ---
 
 ---
+
 __David Rodriguez__ 
 
 _Bootcamp of Feb 2016_
 
-[Sentiment and Principal Component Analysis of Twitter Data: Microsoft Study](/ignited_projects/2016-04__David_Rodriguez/microsoft_analysis/)   
+[Sentiment and Principal Component Analysis of Twitter Data: Microsoft Study](/ignited_projects/2016-04__David_Rodriguez/Twitter-Sentiment-PCA-master/)   
 
 * [Interactive Application](https://dr-rodriguez.shinyapps.io/twitter_analysis/){:target="_blank"}
 * [application source code](https://github.com/dr-rodriguez/Twitter-Analysis-Shiny-App){:target="_blank"}
