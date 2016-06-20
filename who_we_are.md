@@ -49,4 +49,5 @@ Out participants work with projects involving
 
 ## Organizations supporting our effort
 * [NYC ASCENT](http://www.nycascent.org/){:target="_blank"}    
-_Inspired by New York City's emerging tech markets and advances in the fields of computer science and engineering, Columbia University, Cornell University, the City University of New York, and New York University have formed a consortium to connect the growing community of computing science and engineering postdocs, entrepreneurs, technology professionals, and senior researchers._
+_Inspired by New York City's emerging tech markets and advances in the fields of computer science and engineering, Columbia University, Cornell University, the City University of New York, and New York University have formed a consortium to connect the growing community of computing science and engineering postdocs, entrepreneurs, technology professionals, and senior researchers._    
+*[NYC ASCENT Archived Events](http://www.nycascent.org/#!past-events/crii){:target="_blank"}*
