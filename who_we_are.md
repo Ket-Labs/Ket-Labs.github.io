@@ -7,7 +7,7 @@ permalink: /who_we_are/
 Ket Labs is run by Dr. S. Samsonau and supported by contributors and participants from academia and industry. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
 
 
-# Lab Director
+## Lab Director
 
 ![](/images/Sergey.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;width: 150px;"}{:target="_blank"}
 
@@ -19,7 +19,7 @@ Sergey promotes modern tools in research and education both in Physics and Data 
 
 <br />
 
-# Main contributors:     
+## Main contributors:     
 
 **Andi Shehu, PhD**     
 
@@ -33,8 +33,8 @@ Andi's interest in data science comes from interdisciplinary fields such as medi
 Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.      
 *Education:*  PhD Candidate in Physics at The Graduate Center, The City University of New York (CUNY). M.A. in Physics from Hunter College of CUNY.   
 
-# Participants from various fields
-We benefit a lot from out bootcamp participants: current and recent PhD students, Postdocs, and working professionals from CUNY, Columbia, NYU, NYC public library, and others
+## Participants from various fields
+We benefit a lot from out bootcamp participants: current and recent PhD students, Postdocs, and working professionals from CUNY, Columbia, NYU, and others
 
 Out participants work with projects involving
 
@@ -46,3 +46,7 @@ Out participants work with projects involving
 * Stock market analysis
 * Emotional analysis
 * and others.
+
+## Organizations supporting our effort
+* [NYC ASCENT](http://www.nycascent.org/){:target="_blank"}    
+_Inspired by New York City's emerging tech markets and advances in the fields of computer science and engineering, Columbia University, Cornell University, the City University of New York, and New York University have formed a consortium to connect the growing community of computing science and engineering postdocs, entrepreneurs, technology professionals, and senior researchers._

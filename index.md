@@ -19,4 +19,7 @@ R allows to streamline otherwise tedious tasks.
 We employ the power of open-source
 
 * Look into the world of industry and prepare for transition should they choose to do so.    
-_Companies are constantly looking for talent with deep domain expertise who can carry out data science projects using open source technologies._
+    - Using modern tools to carry out and communicate a research allows to obtain experience recognized by industry
+    - Open source technologies, in particular R, is a desired skill in a potential employee
+    - Understanding the type of work conducted in industry helps prepare for a transition
+    
