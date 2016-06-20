@@ -1,8 +1,8 @@
 # Site settings
 title: Ket Labs
-email: ashehu@ket-labs.com
+email: s.samsonau@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Get a data science upgrade for your team, research lab or personal project. 
+ “My dear, here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that.” ― Lewis Carroll, Alice in Wonderland
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.ket-labs.com" # the base hostname & protocol for your site
 twitter_username:
