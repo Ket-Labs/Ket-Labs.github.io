@@ -4,7 +4,7 @@ title: "&lang; Traditional Science | Data Science	&rang;"
 permalink: /
 ---    
 
-__Ket Labs is a peer based Research Laboratory created to promote the use of modern data science tools in traditional research.__ 
+__Ket Labs is an initiative created to promote the use of modern data science tools in traditional research.__ 
 
 ## We work with researchers from various fields to help them:
 
