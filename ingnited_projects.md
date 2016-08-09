@@ -4,18 +4,25 @@ title: Ignited Projects
 permalink: /ignited_projects/
 ---
 
-You can find some of the projects ignited by Ket Labs on this page. Not all of them can be published just yet, due to the sensitive data involved. 
+You can find some of the projects ignited by Ket Labs on this page. Not all of them can be published just yet, due to the sensitive data involved. More projects from the June bootcamp will follow.
+
+
+###  Using Google trends to predict Apple stock returns
+*  by Matthew Moocarme (EDS Bootcamp participant (June 2016))
+*  [project report with an interactive application](https://moocarme.github.io/AppleStockPred/){:target="_blank"}
+*  [source code](https://github.com/moocarme/Stock-return-predictor){:target="_blank"}
+
 
 ###  Sentiment and Principal Component Analysis of Twitter Data: Microsoft Study
 *  by David Rodriguez (EDS Bootcamp participant (Feb 2016))
-*  [presentation](https://github.com/dr-rodriguez/Twitter-Sentiment-PCA/blob/master/microsoft_analysis.md){:target="_blank"}
-*  [Interactive Application](https://dr-rodriguez.shinyapps.io/twitter_analysis/){:target="_blank"}
+*  [project report](https://github.com/dr-rodriguez/Twitter-Sentiment-PCA/blob/master/microsoft_analysis.md){:target="_blank"}
+*  [interactive application](https://dr-rodriguez.shinyapps.io/twitter_analysis/){:target="_blank"}
 *  [application source code](https://github.com/dr-rodriguez/Twitter-Analysis-Shiny-App){:target="_blank"}
 
 
 ### League of Legends: Who will win?
 * by Vincent Quenneville-Bélair (EDS Bootcamp participant (Feb 2016))
-* [presentation](https://github.com/vincentqb/league-of-legends/blob/master/README.md){:target="_blank"}
+* [project report](https://github.com/vincentqb/league-of-legends/blob/master/README.md){:target="_blank"}
 * [application source code](https://github.com/vincentqb/league-of-legends){:target="_blank"}    
 
 
