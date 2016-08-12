@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "&lang; Traditional Science | Data Science	&rang;"
+title: "Data Science Education for Scientists"
 permalink: /
 ---    
 
-__Ket Labs is an initiative created to promote the use of modern data science tools in traditional research.__ 
+__Ket Labs is devoted to promote the use of modern data science tools in traditional research.__ 
 
-## We work with researchers from various fields to help them:
+### We work with researchers from various fields to help them:
 
 * Optimize data workflow in research projects using modern tools.   
 R language allows to streamline otherwise tedious tasks.

@@ -4,7 +4,7 @@ title: "Who we are"
 permalink: /who_we_are/
 ---
 
-Ket Labs is run by Dr. S. Samsonau and supported by contributors and participants from academia and industry. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
+Ket Labs, LLC is run by Dr. S. Samsonau and supported by contributors and participants from academia and industry. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
 
 
 ## Director
