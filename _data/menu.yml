@@ -6,10 +6,6 @@
 
 - title: "Bootcamp"
   href: "/bootcamp/"
-  subcategories:  
-    - subtitle: "Resourses"
-      subhref: "/resources/"
-  
 
 - title: "Ignited Projects"
   href: "/ignited_projects/"
