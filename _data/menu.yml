@@ -1,11 +1,14 @@
-- title: "Data Science"
-  href: "/data_science/"
-
 - title: "Who we are"
   href: "/who_we_are/"
 
 - title: "Bootcamp"
   href: "/bootcamp/"
+
+- title: "Resources"
+  href: "/resources/"
+  
+- title: "DS in Science"
+  href: "/ds_in_science/"
 
 - title: "Ignited Projects"
   href: "/ignited_projects/"

@@ -6,10 +6,6 @@ permalink: /resources/
 
 Some useful resourses to start with.
 
-## Basic R syntax
-[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) from Datacamp. 
-
-
 ## Books
 
 * [R for Data Science](http://r4ds.had.co.nz/), by Garrett Grolemund, Hadley Wickham

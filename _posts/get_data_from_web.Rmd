@@ -1,0 +1,93 @@
+---
+title: "Getting Data from Web"
+author: "S.Samsonau"
+date: "October 5, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+```{r message=F}
+library(httr); library(httpuv); library(jsonlite); library(dplyr)
+```
+
+
+```{r echo=F}
+# load keys and other autorizaiton information
+source("../../internet_autorizations.R")
+```
+
+```{r, eval=F}
+#Example with wrong values (you have to obtain and specify working values)
+consumerKey_Yelp = "alsdfjl34l23kj"
+consumerSecret_Yelp = "lsdfkjslkj3"
+token_Yelp = "lsadkfjwejf"
+token_secret_Yelp = "alsdkfjasldkfj"
+```
+
+## Getting data from Yelp
+
+Bellow we provide a minimum working example. More infromation you can find here:
+
+* General idea about the data you can get from Yelp [here](https://www.yelp.com/developers/documentation/v2/overview)
+* Create [Yelp account and create an API key](https://www.yelp.com/developers/api_console)
+* [Authentication](https://www.yelp.com/developers/documentation/v2/authentication)
+* [All parameters available in Yelp search API](https://www.yelp.com/developers/documentation/v2/search_api).  
+
+```{r}
+# authorization
+myapp = oauth_app("YELP", key=consumerKey_Yelp, secret=consumerSecret_Yelp)
+sig=sign_oauth1.0(myapp, token=token_Yelp,token_secret=token_secret_Yelp)
+
+# Formulate a request string for 12 shops in NYC
+limit <- 12;
+location <- "NYC"
+term <- "shop"
+yelpurl <- paste0("http://api.yelp.com/v2/search/,",
+                  "?limit=", limit, 
+                  "&location=", location,
+                  "&term=", term)
+
+loaded_data <- GET(yelpurl, sig) # use verbose() inside GET for more details
+
+df <- loaded_data %>% # use names(loaded_data) to see what this object contains
+  content() %>%   # extract only content from loaded_data objects
+  jsonlite::toJSON() %>%  
+  jsonlite::fromJSON() %>%
+  as.data.frame()
+
+# Explore data
+# View(df)
+```
+
+### List to vector
+
+Some variables in data frame are represented as a list. Let us convert one of them to vector
+
+```{r}
+str(df$businesses.categories)
+
+library(stringr)
+
+df$businesses.categories <- df$businesses.categories %>%
+  lapply(as.vector) %>%
+  lapply(tolower) %>%
+  lapply(str_replace_all, " ", "") %>%
+  lapply(unique) %>% # removing repetitions
+  sapply(str_c, collapse =", ")
+
+df$businesses.categories
+```
+
+Of course, some subsequential cleaning will be needed. For example "and" and "&" should be treated equaly
+
+## Getting data from NY Times
+
+## Getting data from Twitter
+
+## Getting finance data from Google
+
+## Getting finance data from Yahoo

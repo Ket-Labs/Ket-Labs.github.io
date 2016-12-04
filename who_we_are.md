@@ -4,7 +4,7 @@ title: "Who we are"
 permalink: /who_we_are/
 ---
 
-Ket Labs, LLC is run by Dr. S. Samsonau and supported by contributors and participants from academia and industry. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
+Ket Labs is run by Dr. Sergey Samsonau and supported by contributors and participants from academia and industry. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
 
 
 ## Director
@@ -46,8 +46,3 @@ Out participants work with projects involving
 * Stock market analysis
 * Emotional analysis
 * and others.
-
-## Organizations supporting our effort
-* [NYC ASCENT](http://www.nycascent.org/){:target="_blank"}    
-_Inspired by New York City's emerging tech markets and advances in the fields of computer science and engineering, Columbia University, Cornell University, the City University of New York, and New York University have formed a consortium to connect the growing community of computing science and engineering postdocs, entrepreneurs, technology professionals, and senior researchers._    
-*[NYC ASCENT Archived Events](http://www.nycascent.org/#!past-events/crii){:target="_blank"}*
