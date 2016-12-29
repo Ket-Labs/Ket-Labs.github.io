@@ -1,8 +1,11 @@
 ---
+layout: post
 title: "Getting Data from Web"
 author: "S.Samsonau"
 date: "October 5, 2016"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -10,18 +13,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Load libraries
+
 ```{r message=F}
 library(httr); library(httpuv); library(jsonlite); library(dplyr)
 ```
 
+## Load keys and other autorizaiton information
 
 ```{r echo=F}
-# load keys and other autorizaiton information
 source("../../internet_autorizations.R")
 ```
 
+Inside this file you will have something like this: (example with arbitrary values - you should obtain working values for [yelp API](https://www.yelp.com/developers/api_console) and specify them inside the file)
+
 ```{r, eval=F}
-#Example with wrong values (you have to obtain and specify working values)
 consumerKey_Yelp = "alsdfjl34l23kj"
 consumerSecret_Yelp = "lsdfkjslkj3"
 token_Yelp = "lsadkfjwejf"
@@ -30,7 +35,7 @@ token_secret_Yelp = "alsdkfjasldkfj"
 
 ## Getting data from Yelp
 
-Bellow we provide a minimum working example. More infromation you can find here:
+Bellow we provide a minimum working example. More information you can find here:
 
 * General idea about the data you can get from Yelp [here](https://www.yelp.com/developers/documentation/v2/overview)
 * Create [Yelp account and create an API key](https://www.yelp.com/developers/api_console)
@@ -52,7 +57,11 @@ yelpurl <- paste0("http://api.yelp.com/v2/search/,",
                   "&term=", term)
 
 loaded_data <- GET(yelpurl, sig) # use verbose() inside GET for more details
+```
 
+## Reformat the data to a convinient format
+
+```{r}
 df <- loaded_data %>% # use names(loaded_data) to see what this object contains
   content() %>%   # extract only content from loaded_data objects
   jsonlite::toJSON() %>%  
@@ -82,12 +91,4 @@ df$businesses.categories <- df$businesses.categories %>%
 df$businesses.categories
 ```
 
-Of course, some subsequential cleaning will be needed. For example "and" and "&" should be treated equaly
-
-## Getting data from NY Times
-
-## Getting data from Twitter
-
-## Getting finance data from Google
-
-## Getting finance data from Yahoo
+Of course, some subsequent cleaning will be needed. For example "and" and "&" should be treated equally, etc.

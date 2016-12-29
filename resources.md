@@ -4,7 +4,7 @@ title: "Resources"
 permalink: /resources/
 ---
 
-Some useful resourses to start with.
+You can find a lot of study materials about R and data science all over the internet. Here we heighlight the essentials which would help you to start doing the job you have to do, figuring out details on the way.
 
 ## Books
 
@@ -12,10 +12,13 @@ Some useful resourses to start with.
 * [ggplot2: Elegant Graphics for Data Analysis](http://ggplot2.org/book/) by Hadley Wickham
 * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/) by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
-
 ## Cheatsheets
 
 * [dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 * [ggplot](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 * [shiny](http://shiny.rstudio.com/articles/cheatsheet.html)
+
+## Getting data from internet
+
+* [Yelp](/resources/data_from_web_yelp/)
 

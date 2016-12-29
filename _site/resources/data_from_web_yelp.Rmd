@@ -9,12 +9,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Resources</title>
+  <title>Getting Data from Web</title>
   <meta name="description" content="Bridging the gap between traditional and data science.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.ket-labs.com/resources/">
+  <link rel="canonical" href="http://www.ket-labs.com/resources/data_from_web_yelp.Rmd">
   <link rel="alternate" type="application/rss+xml" title="Ket Labs" href="http://www.ket-labs.com/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -129,34 +129,97 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Resources</h1>
+    <h1 class="post-title">Getting Data from Web</h1>
+    <p class="post-meta">Posted on October 5, 2016 by  S.Samsonau  
+
+</p>
   </header>
 
   <article class="post-content">
-    <p>You can find a lot of study materials about R and data science all over the internet. Here we heighlight the essentials which would help you to start doing the job you have to do, figuring out details on the way.</p>
+    ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-<h2 id="books">Books</h2>
+## Load libraries
 
-<ul>
-  <li><a href="http://r4ds.had.co.nz/">R for Data Science</a>, by Garrett Grolemund, Hadley Wickham</li>
-  <li><a href="http://ggplot2.org/book/">ggplot2: Elegant Graphics for Data Analysis</a> by Hadley Wickham</li>
-  <li><a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning with Applications in R</a> by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</li>
-</ul>
+```{r message=F}
+library(httr); library(httpuv); library(jsonlite); library(dplyr)
+```
 
-<h2 id="cheatsheets">Cheatsheets</h2>
+## Load keys and other autorizaiton information
 
-<ul>
-  <li><a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">dplyr and tidyr</a></li>
-  <li><a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">ggplot</a></li>
-  <li><a href="http://shiny.rstudio.com/articles/cheatsheet.html">shiny</a></li>
-</ul>
+```{r echo=F}
+source("../../internet_autorizations.R")
+```
 
-<h2 id="getting-data-from-internet">Getting data from internet</h2>
+Inside this file you will have something like this: (example with arbitrary values - you should obtain working values for [yelp API](https://www.yelp.com/developers/api_console) and specify them inside the file)
 
-<ul>
-  <li><a href="/resources/data_from_web_yelp/">Yelp</a></li>
-</ul>
+```{r, eval=F}
+consumerKey_Yelp = "alsdfjl34l23kj"
+consumerSecret_Yelp = "lsdfkjslkj3"
+token_Yelp = "lsadkfjwejf"
+token_secret_Yelp = "alsdkfjasldkfj"
+```
 
+## Getting data from Yelp
+
+Bellow we provide a minimum working example. More information you can find here:
+
+* General idea about the data you can get from Yelp [here](https://www.yelp.com/developers/documentation/v2/overview)
+* Create [Yelp account and create an API key](https://www.yelp.com/developers/api_console)
+* [Authentication](https://www.yelp.com/developers/documentation/v2/authentication)
+* [All parameters available in Yelp search API](https://www.yelp.com/developers/documentation/v2/search_api).  
+
+```{r}
+# authorization
+myapp = oauth_app("YELP", key=consumerKey_Yelp, secret=consumerSecret_Yelp)
+sig=sign_oauth1.0(myapp, token=token_Yelp,token_secret=token_secret_Yelp)
+
+# Formulate a request string for 12 shops in NYC
+limit <- 12;
+location <- "NYC"
+term <- "shop"
+yelpurl <- paste0("http://api.yelp.com/v2/search/,",
+                  "?limit=", limit, 
+                  "&location=", location,
+                  "&term=", term)
+
+loaded_data <- GET(yelpurl, sig) # use verbose() inside GET for more details
+```
+
+## Reformat the data to a convinient format
+
+```{r}
+df <- loaded_data %>% # use names(loaded_data) to see what this object contains
+  content() %>%   # extract only content from loaded_data objects
+  jsonlite::toJSON() %>%  
+  jsonlite::fromJSON() %>%
+  as.data.frame()
+
+# Explore data
+# View(df)
+```
+
+### List to vector
+
+Some variables in data frame are represented as a list. Let us convert one of them to vector
+
+```{r}
+str(df$businesses.categories)
+
+library(stringr)
+
+df$businesses.categories <- df$businesses.categories %>%
+  lapply(as.vector) %>%
+  lapply(tolower) %>%
+  lapply(str_replace_all, " ", "") %>%
+  lapply(unique) %>% # removing repetitions
+  sapply(str_c, collapse =", ")
+
+df$businesses.categories
+```
+
+Of course, some subsequent cleaning will be needed. For example "and" and "&" should be treated equally, etc.
 
   </article>
 
