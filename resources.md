@@ -18,6 +18,10 @@ You can find a lot of study materials about R and data science all over the inte
 * [ggplot](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 * [shiny](http://shiny.rstudio.com/articles/cheatsheet.html)
 
+## Some useful info
+* [Shiny Publishing Options](/resources/shiny_publishing_options/)
+
+
 ## Getting data from internet
 
 * [Yelp](/resources/data_from_web_yelp/)

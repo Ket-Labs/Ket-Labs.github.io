@@ -1,0 +1,87 @@
+---
+layout: page
+title: "Shiny publishing options"
+permalink: /resources/shiny_publishing_options/
+---
+
+
+After making shiny app you usually publish it on free [shinyapps.io](http://www.shinyapps.io/#_pricing), which however, has a limit of up to 25 hours/month. If your app needs more, or you would like to protect access with user-password, there are some other options. 
+
+* Free on Ket-Labs cloud. For a typical application produced after EDS bootcamps it will be free. We can set-up a password protected access to your app if needed. Contact us for details.
+
+* Paid [shinyapps.io](http://www.shinyapps.io/#_pricing) ~$10/month for 100 active hours/month 
+
+* Shiny using [Docker](https://www.r-bloggers.com/dockerizing-a-shiny-app/) deployed at Docker Hub, or on any cloud server. 
+
+The following content shows how to set it up on your own server. This could be a local Ubuntu server in your house/lab/etc, or provided by some of providers. 
+
+## Choosing provider
+The smallest instance server should be sufficient for initial stage. 
+
+* Amazon Elastic Compute Cloud - EC2 - [T2 instance](https://aws.amazon.com/blogs/aws/ec2-update-t2-nano-instances-now-available/) 
+    + For example t2.nano 1 vCPU, 0.5 GiB RAM, $3-5/month. Disk space [priced separately](https://aws.amazon.com/ebs/pricing/). 
+    + 1-year free trial
+
+* Google Cloud
+    + For a regular server use Compute Engine: [pricing](https://cloud.google.com/compute/pricing)
+    + For example f1-micro, 0.6 GiB RAM, ~$4/month. It comes with 10GB HDD
+    + [Trial credits](https://cloud.google.com/free-trial/): $300 to spend on Google Cloud Platform over the first 60 days
+
+*  Digital Ocean
+    + easier to use for basic applications comparing to Amazon or Google
+    + $5 a month for 0.5 GiB RAM, 1 CPU, 20GB disk. 
+    + Two months free ($10) if you sign up using this [link](https://m.do.co/c/4981ead00c3c)
+
+## Setting it up with Digital Ocean
+
+You can use nice step-by-step sequence describing how to set up Ubuntu server and [shiny-server on Digital Ocean published here](http://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/) - please read the following notes first
+
+#### Notes:
+
+- To generate ssh key-pairs [(Linux, Mac)](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2) (you can find instructions for Windows as well):
+
+```r
+ssh-keygen -t rsa
+```
+
+- Backup to secure location files id_rsa.pub, id_rsa, known_hosts
+
+- Show key using the following code and insert it while creating droplet
+    
+
+```r
+cat /home/your_local_user/.ssh/id_rsa.pub
+```
+
+- In step 6 in the first command you see "ubuntu trusty". You have to replace it to a corresponding name of the Ubuntu [release name](https://wiki.ubuntu.com/Releases) you are using - for example for Ubuntu 16.04 it will be "ubuntu xenial"
+
+- In step 6 the next command can give you warning after it is done. Run the same command again
+
+```r
+sudo su - -c "R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""
+```
+
+- Use the same way as in step 6 to install R packages many users are going to use - to install them in global directory. For example ggplot2
+
+```r
+sudo su - -c "R -e \"install.packages('ggplot2', repos='http://cran.rstudio.com/')\""
+```
+Again, if there is a warning with "non zero status", just run it again
+
+- Step 8.2 is really optional. You can just use FileZilla program or [scp command in your local terminal](http://www.hypexr.org/linux_scp_help.php) 
+
+```r
+#Copy the file "ui.R" from a remote host to the local host
+$ scp your_username@ip_address:/srv/shiny-server/app1/ui.R /some/local/directory
+#Copy the file "foobar.txt" from the local host to a remote host
+$ scp ui.R your_username@ip_address:/srv/shiny-server/app1/
+```
+
+### SSL (free)
+If you have you own domain and direct it with your server, you can set up SSL certificate. This is recommended, if you are going to use some sort of authorization in web-browser, for example if you did install R studio server and are going to login using browser (of other programs, for project management, etc.). 
+
+Use [these steps](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04) to install [Let's Encript](https://letsencrypt.org/)  free SSL certificate. 
+
+### Password protected access
+Use these [instructuions](https://www.r-bloggers.com/add-authentication-to-shiny-server-with-nginx/)
+
