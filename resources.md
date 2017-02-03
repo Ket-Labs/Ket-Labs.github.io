@@ -16,7 +16,7 @@ You can find a lot of study materials about R and data science all over the inte
 
 * [dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 * [ggplot](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-* [shiny](http://shiny.rstudio.com/articles/cheatsheet.html)
-
+* [shiny](http://shiny.rstudio.com/images/shiny-cheatsheet.pdf)
+* [shiny](https://www.rstudio.com/wp-content/uploads/2015/02/shiny-cheatsheet.pdf)
 
 
