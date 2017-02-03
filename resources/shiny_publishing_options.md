@@ -78,7 +78,7 @@ $ scp ui.R your_username@ip_address:/srv/shiny-server/app1/
 ```
 
 ### SSL (free)
-If you have you own domain and direct it with your server, you can set up SSL certificate. This is recommended, if you are going to use some sort of authorization in web-browser, for example if you did install R studio server and are going to login using browser (of other programs, for project management, etc.). 
+If you have your own domain and direct it with your server, you can set up SSL certificate. This is recommended, if you are going to use some sort of authorization in web-browser, for example if you did install R studio server and are going to login using browser (or other programs, for project management, etc.). 
 
 Use [these steps](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04) to install [Let's Encript](https://letsencrypt.org/)  free SSL certificate. 
 
