@@ -2,7 +2,7 @@
 title: Ket Labs
 email: info@ket-labs.com
 description: > # this means to ignore newlines until "baseurl:"
- Bridging the gap between traditional and data science.
+ Bridging the gap between Academic Research and Data Science
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.ket-labs.com" # the base hostname & protocol for your site
 twitter_username:
