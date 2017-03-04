@@ -5,7 +5,7 @@ permalink: /eds-training/
 ---
 
 <p style="text-align: right;  font-weight: bold;">
-<a href="javascript:void( window.open('https://form.jotform.com/70565679110155', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate</a>
+<a href="javascript:void( window.open('https://form.jotform.com/70565679110155', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate (Spring 2017 batch)</a>
 </p>
 
 

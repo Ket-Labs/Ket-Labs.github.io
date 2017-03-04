@@ -14,6 +14,12 @@ __Ket Labs is devoted to promote the use of modern data science tools in traditi
 
 * Implementing a project in R language allows a researcher to share results in a reproducible form, and at the same time develops skills industry desires
 
+
+<p style="text-align: right;  font-weight: bold;">
+<a href="javascript:void( window.open('https://form.jotform.com/70565679110155', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate in EDS training (Spring 2017 batch)</a>
+</p>
+
+
 ## What do we do
 
 * We work with specialists from industry to identify the "essentials" every data scientist should know
@@ -22,4 +28,4 @@ __Ket Labs is devoted to promote the use of modern data science tools in traditi
 
 * We provide continued support for a project development after EDS training
 
-* Final projects evaluation and placement of the best students into 5-week full-time [S2DS bootcamp](http://www.s2ds.org/){:target="_blank"} organized by our partner [Pivigo](https://www.pivigo.com/){:target="_blank"} where students work with companies on industry-type data science projects.
+* Many of our students landed on Data Science positions after finishing their academic carrier or extended their training by participating in such programs as [S2DS bootcamp](http://www.s2ds.org/){:target="_blank"} organized by our partner [Pivigo](https://www.pivigo.com/){:target="_blank"} or [Insight](http://insightdatascience.com/){:target="_blank"}. 
