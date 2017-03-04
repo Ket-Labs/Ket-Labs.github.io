@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Ignited Projects
-permalink: /ignited_projects/
+title: Ket-Labs community
+permalink: /ket-labs-community/
 ---
 
-You can find some of the projects ignited by Ket Labs on this page. Not all of them can be published just yet, due to the sensitive data involved. More projects from the June bootcamp will follow.
+You can find some of the projects ignited by Ket Labs on this page. Not all of them can be published just yet, due to the sensitive data involved. 
 
 
 ###  Using Google trends to predict Apple stock returns

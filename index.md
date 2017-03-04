@@ -18,8 +18,8 @@ __Ket Labs is devoted to promote the use of modern data science tools in traditi
 
 * We work with specialists from industry to identify the "essentials" every data scientist should know
 
-* At "Essential of Data Science" bootcamps we teach students to use R for handling different types of data and apply machine learning techniques. We discuss the typical projects in industry. The bootcamp is supported by [NYC ASCENT](http://www.nycascent.org/){:target="_blank"} and [Pivigo](https://www.pivigo.com/){:target="_blank"}
+* At "Essential of Data Science" training we teach students to use R for handling different types of data and apply machine learning techniques. We discuss the typical projects in industry. The training is supported by [Pivigo](https://www.pivigo.com/){:target="_blank"}
 
-* We provide continued support for a project development after EDS bootcamp
+* We provide continued support for a project development after EDS training
 
 * Final projects evaluation and placement of the best students into 5-week full-time [S2DS bootcamp](http://www.s2ds.org/){:target="_blank"} organized by our partner [Pivigo](https://www.pivigo.com/){:target="_blank"} where students work with companies on industry-type data science projects.

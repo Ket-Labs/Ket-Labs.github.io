@@ -21,3 +21,7 @@ excerpt_separator: "<!--more-->"
 # google_author: ""
 # google_site_verification: ""
 # bing_webmastertools_id: ""
+
+# deployment
+host: 127.0.0.1
+port: 5000

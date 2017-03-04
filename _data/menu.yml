@@ -1,17 +1,17 @@
 - title: "Who we are"
   href: "/who_we_are/"
 
-- title: "Bootcamp"
-  href: "/bootcamp/"
+- title: "EDS Training"
+  href: "/eds-training/"
+
+- title: "Ket Labs community"
+  href: "/ket-labs-community/"
 
 - title: "Resources"
   href: "/resources/"
   
 - title: "DS in Science"
   href: "/ds_in_science/"
-
-- title: "Ignited Projects"
-  href: "/ignited_projects/"
   
 - title: "Events"
   href: "/events/"  
