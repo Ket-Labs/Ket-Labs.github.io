@@ -37,3 +37,5 @@ EDS training is designed to bring PhD level researchers up to speed in the moder
 
 
 *Previous EDS trainings were supported by [NYC ASCENT](http://www.nycascent.org/){:target="_blank"} and took place at Columbia University
+
+<script id="dsq-count-scr" src="//eds-ny.disqus.com/count.js" async></script>
