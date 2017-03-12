@@ -19,6 +19,10 @@ Sergey promotes modern tools in research and education both in Physics and Data 
 
 <br />
 
+### Contributors
+
+We welcome contributors from Industry and Academia. Some topics can be covered by our previous students, who by now obtained new unique experience. In the furure we would like to extend such contribution from the previous students as much as possible to facilitate flow of ideas and knowlege. 
+
 ## Main contributors:     
 
 **Andi Shehu, PhD**     
