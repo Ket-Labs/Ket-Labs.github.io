@@ -29,7 +29,7 @@ table, td, th, td {
   </tr>
   <tr>
     <th>Cost</th>
-    <td>Very affordable <br/>
+    <td>Very affordable ($1200 or less) <br/>
     see the note bellow the table</td>
     <td>~$2,900</td>
     <td>Free <br/>(or close to free)</td>
