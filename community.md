@@ -6,6 +6,9 @@ permalink: /community/
 
 Ket Labs is a growing community of professionals, scientists, and PhD students devoted to facilitate exchange of ideas between academia and industry. It is coordinated by Dr. Sergey Samsonau and supported by contributors and participants from various fields. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
 
+<p style="text-align: right;  font-weight: bold;">
+<a href="javascript:void( window.open('https://form.jotform.us/70707499673167', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Support EDS program (donate)</a>
+</p>
 
 ## Director
 
