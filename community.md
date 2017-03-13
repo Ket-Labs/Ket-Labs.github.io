@@ -38,16 +38,21 @@ _Denis Sharoukhov, PhD_
 Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.     
 [LinkedIn](https://www.linkedin.com/in/denis-sharoukhov/){:target="_blank"}
 
-## Participants from various fields
-We benefit a lot from out bootcamp participants: current and recent PhD students, Postdocs, and working professionals from CUNY, Columbia, NYU, and others
+## Network of domain knowledge advisers
+We benefit a lot from having participants being specialists in various fields: current and recent PhD students, Postdocs, and working professionals from CUNY, Columbia, NYU, and others
 
-Our participants work with projects involving
+Participants implement projects in their field of expertise (domain) and if they wish, they become a part of a growing network of advisers, who can help you with an advice related to their field. At this moment, we can connect our future students to specialists working in:
 
-* Neurobiology
-* Signal analysis
-* Physiology
-* Analysis of terrorist attack activity
-* Oceanography
-* Stock market analysis
-* Emotional analysis
-* and others.
++ Nanoscience
++ Spectroscopy
++ Signal analysis
++ Medicine
++ Phycology
++ Neurobiology
++ Oceanography
++ Optical networks
++ Data Bases
++ Analysis of terrorist attack activity
++ Data Science for Gamers
++ Text analytics
++ Stock market analysis
