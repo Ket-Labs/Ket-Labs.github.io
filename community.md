@@ -4,7 +4,7 @@ title: "Community"
 permalink: /community/
 ---
 
-Ket Labs is a growing community of professionals, scientists, and PhD students devoted to facilitate exchange of ideas between academia and industry. It is managed by Dr. Sergey Samsonau and supported by contributors and participants from various fields. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
+Ket Labs is a growing community of professionals, scientists, and PhD students devoted to facilitate exchange of ideas between academia and industry. It is coordinated by Dr. Sergey Samsonau and supported by contributors and participants from various fields. At Ket Labs we are actively looking for new fields where modern data science methods can be applied and reveal results which otherwise cannot be achieved. We work closely with research institutions and data driven companies in order to make sure we use the modern solutions for data analytic needs.        
 
 
 ## Director
