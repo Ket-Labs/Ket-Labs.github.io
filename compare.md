@@ -21,19 +21,20 @@ table, td, th, td {
     <th></th>
     <th>EDS by Ket-Labs <br/>(35-hour program)</th>
     <th>Other 35-hour programs <br/>
-      like <a href="http://nycdatascience.com/courses/data-science-with-r-machine-learning/">DS with R: ML</a> </th>
+       (<a href="http://nycdatascience.com/courses/data-science-with-r-machine-learning/">DS with R: ML</a>, <br/> <a href="https://generalassemb.ly/education/data-science">General Assembly</a>,
+       <br/> <a href="https://www.thisismetis.com/introduction-to-data-science"> Metis Intro to DS)</a> </th>
     <th>5-7 weeks bootcmaps <br/> 
-        (<a href="http://www.s2ds.org/">S2DS</a>, <a href="http://insightdatascience.com/">Insight</a>)</th>
-    <th>12 weeks bootcmaps <br/> 
-        (like <a href="http://nycdatascience.com/data-science-bootcamp/">NYC DS Academy</a>)</th>
+        (<a href="http://www.s2ds.org/">S2DS</a>, <a href="http://insightdatascience.com/">Insight</a> )</th>
+    <th>12 weeks bootcamps <br/> 
+        <a href="http://nycdatascience.com/data-science-bootcamp/">(NYC DS Ac.</a>, <br/><a href="https://www.thisismetis.com/data-science-bootcamps">Metis</a>)</th>
   </tr>
   <tr>
     <th>Cost</th>
     <td>Very affordable ($1200 or less) <br/>
     see the note bellow the table</td>
-    <td>~$2,900</td>
+    <td>~$2,750-4,000</td>
     <td>Free <br/>(or close to free)</td>
-    <td>$16,000</td>
+    <td>$15-16,000</td>
   </tr>
   <tr>
     <th>Full time required</th>
@@ -82,7 +83,7 @@ table, td, th, td {
     <td>no</td>
   </tr> 
   <tr>
-    <th>Desined exclusively for PhDs</th>
+    <th>Desined exclusively for PhD-students/Postdocs</th>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
@@ -100,7 +101,7 @@ table, td, th, td {
     <th>Comprehensive material coverage <br/>
     (Theory, Practice, Hints, Business)</th>
     <td>yes</td>
-    <td>no</td>
+    <td>can vary</td>
     <td>can vary, but generaly yes</td>
     <td>yes</td>
   </tr>    
