@@ -21,7 +21,7 @@ EDS training is designed to bring PhD level researchers up to speed in the moder
 
 ## Data Mining
 * Extracting knowledge from structured and unstructured data
-* Text analytic
+* Text analytics
 * Image processing
 
 ## Plotting, Presenting, and Reporting
