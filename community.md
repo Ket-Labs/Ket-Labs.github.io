@@ -30,7 +30,7 @@ Andi's interest in data science comes from interdisciplinary fields such as medi
 
 ## Contributors
 
-We welcome contributors from Industry and Academia. Some ideas can be covered by our previous students, who by now obtained new unique experience. Such contribution serves well to facilitate flow of ideas and knowlege. 
+We welcome contributors from Industry and Academia. Some ideas can be covered by our previous students, who by now obtained new unique experience. Such contribution serves well to facilitate flow of ideas and knowledge. 
 
 **Special recognition goes to the efforts of the following people:**    
 
@@ -44,7 +44,7 @@ We benefit a lot from having participants being specialists in various fields: c
 
 Participants implement projects in their field of expertise (domain) and if they wish, they become a part of a growing network of advisers, who can help you with an advice related to their field. At this moment, we can connect our future students to specialists working in:
 
-+ Nanoscience
++ Nano-science
 + Spectroscopy
 + Signal analysis
 + Medicine
