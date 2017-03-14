@@ -4,7 +4,7 @@ title: Compare EDS to other programs
 permalink: /compare/
 ---
 
-Let us highlight the main ways to learn Data Science:    
+Main ways to learn Data Science:    
 * Get Master degree offered by Berkley, Columbia and other universities. However, as PhD (or PhD student) you are unlikely to be motivated and have time/money to get another Masters degree.
 * Use online classes offered by Coursera, DataCamp and other websites. Though these classes are great, they usually are quite general, and are not tuned for specific auditory and goal.
 * Onsite trainings and bootcamps.    
@@ -13,7 +13,7 @@ If your goal is to get a DS job, we recommend one of the following pathways:
     + 35-hour program -> 5-7 weeks Bootcamp -> DS job
     + 12 weeks bootcamp
     
-### The table bellow compares our program to other offerings.
+### The table below compares our program to other offerings.
     
 
 <style>
@@ -37,7 +37,7 @@ table, td, th, td {
   <tr>
     <th>Cost</th>
     <td>Very affordable ($1200 or less) <br/>
-    see the note bellow the table</td>
+    see the note below the table</td>
     <td>~$2,750-4,000</td>
     <td>Free <br/>(or close to free)</td>
     <td>$15-16,000</td>
@@ -71,7 +71,7 @@ table, td, th, td {
     <td></td>
   </tr>  
   <tr>
-    <th>Project from Industry patner</th>
+    <th>Project from Industry partner</th>
     <td>no</td>
     <td>no</td>
     <td>yes</td>
@@ -138,7 +138,7 @@ table, td, th, td {
       
 ## Why the price is so low?
 
-EDS training is a non-profit initiative of Ket Labs. We believe those who spend so much time to contribute to science and society deserve help in transition to industry. And this help should be as affordable as possible. The cost of the program helps us to cover the expenses and working hours without any overhead for profit.
+EDS training is a non-profit initiative of Ket Labs. We believe those who spend so much time contributing to science and society deserve help in transition to industry. And this help should be as affordable as possible. The cost of the program helps us to cover the expenses and working hours without any overhead for profit.
 
-Some say USA produces too many PhDs. At Ket Labs we say, our society did not learn yet how to leverage this great potential!
+Some say USA produces too many PhDs. At Ket Labs we say, our society have not learnt yet how to leverage this great potential!
 
