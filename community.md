@@ -19,6 +19,7 @@ _Sergey Samsonau, PhD_
 Sergey promotes modern tools in research and education both in Physics and Data Science. Besides running Ket Labs Sergey teaches Physics and Data Science at Princeton International School of Mathematics and Science (PRISMS).        
 [LinkedIn](https://www.linkedin.com/in/ssamsonau){:target="_blank"}
 
+<br/>
 
 ## Business development 
 
