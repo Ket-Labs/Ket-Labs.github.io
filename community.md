@@ -45,7 +45,7 @@ Matt Moocarme is a data scientist for Viacom’s Data Strategy team where he use
 
 _Denis Sharoukhov, PhD_       
 
-Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.     
+Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.
 [LinkedIn](https://www.linkedin.com/in/denis-sharoukhov/){:target="_blank"}
 
 
