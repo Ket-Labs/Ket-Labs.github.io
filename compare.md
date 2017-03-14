@@ -8,9 +8,9 @@ Let us highlight the main ways to learn Data Science:
 * Get Master degree offered by Berkley, Columbia and other universities. However, as PhD (or PhD student) you are unlikely to be motivated and have time/money to get another Masters degree.
 * Use online classes offered by Coursera, DataCamp and other websites. Though these classes are great, they usually are quite general, and are not tuned for specific auditory and goal.
 * Onsite trainings and bootcamps.    
-If your goal is to get a job, we recommend one of the following pathways:
-    + 35-hour program -> Job
-    + 35-hour program -> 5-7 weeks Bootcamp -> Job
+If your goal is to get a DS job, we recommend one of the following pathways:
+    + 35-hour program -> DS job
+    + 35-hour program -> 5-7 weeks Bootcamp -> DS job
     + 12 weeks bootcamp
     
 ### The table bellow compares our program to other offerings.
@@ -120,14 +120,14 @@ table, td, th, td {
         
         </td>
     <td></td>
-    <td>Getting job</td>
-    <td>Getting job</td>
+    <td>Getting DS job</td>
+    <td>Getting DS job</td>
   </tr>  
   <tr>
     <th>Best students can be placed <br/> 
     to <a href="http://www.s2ds.org/">S2DS</a> through our partnership with <a href="https://www.pivigo.com/">Pivigo</a></th>
     <td>yes</td>
-    <td></td>
+    <td>no</td>
     <td>N/A</td>
     <td>N/A</td>
   </tr>   
