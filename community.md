@@ -21,17 +21,18 @@ Sergey promotes modern tools in research and education both in Physics and Data 
 
 <br/>
 
-## Contributors
-
-We welcome contributors from Industry and Academia. Some ideas can be covered by our previous students, who by now obtained new unique experience. Such contribution serves well to facilitate flow of ideas and knowlege. 
-
-**Special recognition goes to the efforts of the following people:**    
+### Business development 
 
 _Andi Shehu, PhD_    
 
 Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, finance and higher education. He is deeply involved in growing the data science community in New York through teachings, mentoring and consulting.     
 [LinkedIn](https://www.linkedin.com/in/andi-shehu-phd-63304466){:target="_blank"}
 
+## Contributors
+
+We welcome contributors from Industry and Academia. Some ideas can be covered by our previous students, who by now obtained new unique experience. Such contribution serves well to facilitate flow of ideas and knowlege. 
+
+**Special recognition goes to the efforts of the following people:**    
 
 _Denis Sharoukhov, PhD_       
 
@@ -47,7 +48,7 @@ Participants implement projects in their field of expertise (domain) and if they
 + Spectroscopy
 + Signal analysis
 + Medicine
-+ Phycology
++ Psychology
 + Neurobiology
 + Oceanography
 + Optical networks
