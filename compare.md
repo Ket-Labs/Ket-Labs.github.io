@@ -104,7 +104,7 @@ table, td, th, td {
     (Theory, Practice, Hints, Business)</th>
     <td>yes</td>
     <td>can vary</td>
-    <td>can vary, but generaly yes</td>
+    <td>yes</td>
     <td>yes</td>
   </tr>    
   <tr>
