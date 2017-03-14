@@ -37,6 +37,11 @@ _Denis Sharoukhov, PhD_
 Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.     
 [LinkedIn](https://www.linkedin.com/in/denis-sharoukhov/){:target="_blank"}
 
+_Andi Shehu, PhD_    
+
+CEO of [Byteflow Dynamics](http://www.byteflows.com/). Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, finance and higher education. He is deeply involved in growing the data science community in New York through teachings, mentoring and consulting.     
+[LinkedIn](https://www.linkedin.com/in/andi-shehu-phd-63304466){:target="_blank"}
+
 
 ## Network of domain knowledge advisers
 We benefit a lot from having participants being specialists in various fields: current and recent PhD students, Postdocs, and working professionals from CUNY, Columbia, NYU, and others
