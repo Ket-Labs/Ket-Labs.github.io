@@ -46,12 +46,8 @@ table, td, th, td {
     <th>Full time required</th>
     <td>no</td>
     <td>no</td>
-    <td>yes <br/>
-        (not many PhDs/Postdocs <br/>
-        in USA can afford this)</td>
-    <td>yes <br/>
-        (not many PhDs/Postdocs <br/>
-        in USA can afford this)</td>
+    <td>yes</td>
+    <td>yes</td>
   </tr>
   <tr>
     <th>Efficient use of time and effort</th>
