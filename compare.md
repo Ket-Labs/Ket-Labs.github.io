@@ -50,11 +50,11 @@ table, td, th, td {
     <td>yes</td>
   </tr>
   <tr>
-    <th>Efficient use of time and effort</th>
-    <td>do research and master DS tools</td>
-    <td>find time for both research and DS <br/> in parallel</td>
-    <td>full time</td>
-    <td></td>
+    <th>Use of time</th>
+    <td>Do research and master DS tools together</td>
+    <td>Find time for both research and DS <br/> in parallel</td>
+    <td>full time DS</td>
+    <td>full time DS</td>
   </tr>   
   <tr>
     <th>Generic Projects</th>
