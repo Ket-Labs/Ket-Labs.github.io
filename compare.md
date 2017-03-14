@@ -57,19 +57,12 @@ table, td, th, td {
     <td>full time DS</td>
   </tr>   
   <tr>
-    <th>Generic Projects</th>
-    <td>Generic and <br/>domain specific</td>
+    <th>Type of Projects</th>
+    <td>Generic and <br/>specific to your research</td>
     <td>Generic</td>
-    <td>Specific Industry project</td>
+    <td>Specific project from industry</td>
     <td></td>
   </tr>
-  <tr>
-    <th>Domain specific projects</th>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>  
   <tr>
     <th>Project from Industry partner</th>
     <td>no</td>
