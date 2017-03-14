@@ -17,7 +17,7 @@ EDS training is designed to bring PhD level researchers up to speed in the moder
 
 ## Instructors
 
-Please find information about instructors on the [Community page](http://www.ket-labs.com/community/)
+Please find information about the instructors on the [Community page](http://www.ket-labs.com/community/)
 
 
 ## Throughout the course the participants work in:
