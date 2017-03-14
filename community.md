@@ -21,7 +21,7 @@ Sergey promotes modern tools in research and education both in Physics and Data 
 
 <br/>
 
-### Business development 
+## Business development 
 
 _Andi Shehu, PhD_    
 
