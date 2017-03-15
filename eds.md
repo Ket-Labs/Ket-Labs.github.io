@@ -18,7 +18,9 @@ EDS training is designed to bring PhD level researchers up to speed in the moder
 ### Format 
 
 * 5 consecutive Saturdays or Sundays 
-* Specific dates for Spring sessions (NYC, NY and Princeton, NJ) TBA
+* Training is offered at two locations: NYC, NY and Princeton, NJ
+* Now you can apply for Spring 2017 batch
+* Specific dates for Spring session TBA
 
 ## Instructors
 
