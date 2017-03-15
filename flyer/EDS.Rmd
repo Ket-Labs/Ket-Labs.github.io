@@ -11,6 +11,7 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 ## When and Where
 
 * Now you can apply for Spring 2017 batch
+* Format: 5 consecutive Saturdays or Sundays (specific dates TBA)
 * Training is offered at two locations: NYC, NY and Princeton, NJ
 
 ## Throughout the course the participants work in:
