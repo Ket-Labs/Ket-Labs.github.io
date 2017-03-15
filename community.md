@@ -39,7 +39,7 @@ CEO of [Byteflow Dynamics](http://www.byteflows.com/), a data science consulting
 
 _Matt Moocarme, PhD_
 
-Matt Moocarme is a data scientist for Viacom’s Data Strategy team where he uses social media to determine and predict the success of Viacom’s branded campaigns. He received his Ph.D. in physics from The Graduate Center of CUNY in 2017, where he studied how and why the properties of light change as it passes through gold nanostructures. 
+Matt Moocarme is a data scientist for [Viacom’s](http://www.viacom.com/) Data Strategy team where he uses social media to determine and predict the success of Viacom’s branded campaigns. He received his Ph.D. in physics from The Graduate Center of CUNY in 2017, where he studied how and why the properties of light change as it passes through gold nanostructures. 
 [LinkedIn](https://www.linkedin.com/in/moocarme/){:target="_blank"}
 
 
