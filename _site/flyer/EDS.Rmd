@@ -32,8 +32,8 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 * Non-profit approach allows us to keep the cost at only 1/3 of similar programs
 
-* Information and application form available on the program's website 
-http://www.ket-labs.com/eds/
+* Information and an application form are available on the program's website 
+www.ket-labs.com/eds/
 
 * EDS training is supported by [Pivigo](https://www.pivigo.com/), offering Europe’s largest data science training program [S2DS](http://www.s2ds.org/) 
 
