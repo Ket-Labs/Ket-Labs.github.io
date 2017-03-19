@@ -41,7 +41,7 @@ Please find information about the instructors on the [Community page](http://www
 * Git and GitHub
 * Deployment of the analytics findings as a web application (R Shiny)
 
-###Machine learning, consideration from Industrial point of view
+### Machine learning, consideration from Industrial point of view
 * Regression, Classification, Clustering, Recommendation systems
 * Scalable statistical learning
 * Typical problems you would face in industry, and how to approach them
