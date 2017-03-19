@@ -1,10 +1,13 @@
-Essentials of Data Science (EDS) training is designed to bring PhD level researchers up to speed in the modern field of Data Science. The curriculum is formed based on the tools and practices currently in use in data driven businesses and industry. It is meant to cover a wide spectrum of data science sufficient to start producing meaningful results. Theory and practice are interconnected to enhance hands-on experience on real-life data sets. The knowledge will helps researchers to move their project and/or entrepreneurial interests forward to areas where other methods are cumbersome. At the same time it prepares the participants for transition to industry should they choose a career outside Academia. References to common industry practices will be given and invited guests from fields such as finance, consulting and start-ups will give insights to common practices.
+Essentials of Data Science (EDS) training is designed to bring PhD level researchers up to speed in the modern field of Data Science. The curriculum is formed based on the tools and practices currently in use in data driven businesses and industry. It is meant to cover a wide spectrum of data science sufficient to start producing meaningful results. Theory and practice are interconnected to enhance hands-on experience on real-life data sets. The knowledge will help researchers to move their project and/or entrepreneurial interests forward to areas where other methods are cumbersome. At the same time, it prepares the participants for transition to industry should they choose a career outside Academia. References to common industry practices will be given and invited guests from fields such as finance, consulting and start-ups will give insights to common practices.
 
-## When and Where
+## Format
 
-* Now you can apply for Spring 2017 batch
+* Small group allowing to organize learning of material through practice
+* We are inviting to apply PhD students, Postdocs, and other recent PhD graduates
+* Now you can apply for Spring 2017 batch (end of April - May)
 * Format: 5 consecutive Saturdays or Sundays (specific dates TBA)
 * Training is offered at two locations: NYC, NY and Princeton, NJ
+
 
 ## Throughout the course the participants work in:
 
@@ -26,7 +29,7 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 * Non-profit approach allows us to keep the cost at only 1/3 of similar programs offered by profit-oriented companies
 
-* Additional information can be found on the program's website http://www.ket-labs.com/eds/
+* Additional information and application form can be found on the program's website http://www.ket-labs.com/eds/
 
 * EDS training is supported by [Pivigo](https://www.pivigo.com/), offering Europe’s largest data science training program [S2DS](http://www.s2ds.org/) 
 
