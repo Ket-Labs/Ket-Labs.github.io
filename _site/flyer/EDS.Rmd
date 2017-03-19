@@ -16,20 +16,24 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 * Text analytics
 * Image processing
 
-### Plotting, Presenting, and Reporting
+### Plotting, Presenting, Collaboration, and Reporting
 * Elegant graphs, Interactive data exploration
 * Dashboards, Dynamically generated reports and presentations
+* Git and GitHub
 * Deployment of the analytics findings as a web application (R Shiny)
 
-###Machine learning
+###Machine learning, consideration from Industrial point of view
 * Regression, Classification, Clustering, Recommendation systems
 * Scalable statistical learning
+* Typical problems you would face in industry, and how to approach them
+* Presenting results in industry settings
 
 ## Cost and more information: 
 
-* Non-profit approach allows us to keep the cost at only 1/3 of similar programs offered by profit-oriented companies
+* Non-profit approach allows us to keep the cost at only 1/3 of similar programs
 
-* Additional information and application form can be found on the program's website http://www.ket-labs.com/eds/
+* Information and application form available on the program's website 
+http://www.ket-labs.com/eds/
 
 * EDS training is supported by [Pivigo](https://www.pivigo.com/), offering Europe’s largest data science training program [S2DS](http://www.s2ds.org/) 
 

@@ -35,14 +35,17 @@ Please find information about the instructors on the [Community page](http://www
 * Text analytics
 * Image processing
 
-### Plotting, Presenting, and Reporting
+### Plotting, Presenting, Collaboration, and Reporting
 * Elegant graphs, Interactive data exploration
-* Dashboards, Dynamically generated reports and presentations  
+* Dashboards, Dynamically generated reports and presentations
+* Git and GitHub
 * Deployment of the analytics findings as a web application (R Shiny)
 
-### Machine learning   
+###Machine learning, consideration from Industrial point of view
 * Regression, Classification, Clustering, Recommendation systems
 * Scalable statistical learning
+* Typical problems you would face in industry, and how to approach them
+* Presenting results in industry settings
   
 **Main tools, libraries and algorithms:**  R Studio, dplyr, tidyr, ggplot2, sparkR, H2O, tm package, R Markdown, Shiny, caret package, Git.
 
