@@ -18,6 +18,7 @@ On this page, you can find examples of work ignited or contributed by Ket Labs. 
 
 ###  Automating Reconstruction of Focused Ion Beam Current Density Distribution
 * by Gavin Li (work in progress, image processing for nanotechnology  application)
+* [poster](http://www.fibsem.net/web_documents/2017Presentations/P08-Ray-PBS-poster.pdf){:target="_blank"} 
 * [interactive application](https://cloud.ket-labs.com/shiny/FIB/){:target="_blank"}
 
 ### League of Legends: Who will win?
