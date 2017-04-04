@@ -21,33 +21,33 @@ Sergey promotes modern tools in research and education both in Physics and Data 
 
 <br/>
 
-## Business development 
+## Principal Consultant
 
 _Andi Shehu, PhD_    
 
-Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, finance and higher education. He is deeply involved in growing the data science community in New York through teachings, mentoring and consulting.     
+Andi is CEO of [Byteflow Dynamics](http://www.byteflows.com/), a data science consulting company based in NYC specializing in fast, reliable and simple solutions. Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, finance and higher education. 
 [LinkedIn](https://www.linkedin.com/in/andi-shehu-phd-63304466){:target="_blank"}
+
+<br/>
 
 ## Invited Instructors
 
 We welcome contributors from Industry and Academia. Some ideas can be covered by our previous students, who by now obtained new unique experience. Such contribution serves well to facilitate flow of ideas and knowledge. Please contact us if you would like to become a part of the process.
 
-_Andi Shehu, PhD_    
-
-CEO of [Byteflow Dynamics](http://www.byteflows.com/), a data science consulting company based in NYC specializing in fast, reliable and simple solutions. Andi's interest in data science comes from interdisciplinary fields such as medicine, physics, finance and higher education. 
-[LinkedIn](https://www.linkedin.com/in/andi-shehu-phd-63304466){:target="_blank"}
 
 _Matt Moocarme, PhD_
 
-Matt Moocarme is a data scientist for [Viacom’s](http://www.viacom.com/) Data Strategy team where he uses social media to determine and predict the success of Viacom’s branded campaigns. He received his Ph.D. in physics from The Graduate Center of CUNY in 2017, where he studied how and why the properties of light change as it passes through gold nanostructures. 
+Matt is a data scientist for [Viacom’s](http://www.viacom.com/) Data Strategy team where he uses social media to determine and predict the success of Viacom’s branded campaigns. He received his Ph.D. in physics from The Graduate Center of CUNY in 2017, where he studied how and why the properties of light change as it passes through gold nanostructures. 
 [LinkedIn](https://www.linkedin.com/in/moocarme/){:target="_blank"}
 
+_Vincent Quenneville-Bélair, PhD_
+
+Vincent is currently an assistant professor of applied mathematics at Columbia University, and recently served as chief data scientist at [Vizanda](https://www.vizanda.com/){:target="_blank"}, a data startup developing a software to automatically learn from generic user input data in order to offer relevant visualizations and intelligent insights on the fly. [LinkedIn](https://www.linkedin.com/in/vincentqb){:target="_blank"}
 
 _Denis Sharoukhov, PhD_       
 
 Denis is working on image analysis of neuronal fiber bundles for his thesis work. He is utilizing open source programming on daily basis to extract patterns hidden in large data-sets. Image processing, statistical modeling, trend discovery and classification of data are the main components of his research.
 [LinkedIn](https://www.linkedin.com/in/denis-sharoukhov/){:target="_blank"}
-
 
 
 ## Network of domain knowledge advisers
