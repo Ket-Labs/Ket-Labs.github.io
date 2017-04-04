@@ -23,10 +23,14 @@ You can find a lot of study materials about R and data science all over the inte
 * [Using dplyr formulated operations to run them on SQL server](https://cran.r-project.org/web/packages/dplyr/vignettes/databases.html)
 * [Generating SQL queries from dplyr](http://spark.rstudio.com/dplyr.html#sql_translation)
 
+## Parallel processing in R 
+* Microsoft R Open & MKL (https://mran.microsoft.com/download/) - seamless use of more than one cpu core
 
-## Working with Big data (data in cluster)
+## Working with Big data (located in cluster)
 * sparklyr: [R interface for Apache Spark](http://spark.rstudio.com/index.html) 
-* rsparkling: [Sparkling Water (H2O) Machine Learning](http://spark.rstudio.com/h2o.html)
+* rsparkling: [Sparkling Water (H2O) Machine Learning, including deep learning](http://spark.rstudio.com/h2o.html)
+* [R with Hadoop](http://blog.revolutionanalytics.com/2015/06/using-hadoop-with-r-it-depends.html)
+* [Visualize Large Data](http://spark.rstudio.com/taxiDemoH2O.nb.html#visualize) 
 
 ## Plotting libraries
 * ggplot - see [R for Data Science](http://r4ds.had.co.nz/)
