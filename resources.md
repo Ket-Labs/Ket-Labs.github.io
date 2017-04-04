@@ -24,7 +24,7 @@ You can find a lot of study materials about R and data science all over the inte
 * [Generating SQL queries from dplyr](http://spark.rstudio.com/dplyr.html#sql_translation)
 
 ## Parallel processing in R 
-* Microsoft R Open & MKL (https://mran.microsoft.com/download/) - seamless use of more than one cpu core
+* [Microsoft R Open & MKL](https://mran.microsoft.com/download/) - seamless use of more than one cpu core
 
 ## Working with Big data (located in cluster)
 * sparklyr: [R interface for Apache Spark](http://spark.rstudio.com/index.html) 
