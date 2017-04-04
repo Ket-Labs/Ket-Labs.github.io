@@ -32,7 +32,7 @@ You can find a lot of study materials about R and data science all over the inte
 * ggplot - see [R for Data Science](http://r4ds.had.co.nz/)
 * [plotly](https://plot.ly/ggplot2/) - making ggplot2 interactive
 * [ggvis](http://ggvis.rstudio.com/0.1/ggvis-basics.html) - interactive plots (Behind the scenes, interactive plots are built with shiny, and you can currently only have one running at a time in a given R session)
-* [dygraph](https://rstudio.github.io/dygraphs/)
+* [dygraph](https://rstudio.github.io/dygraphs/) - R interface to the dygraphs JavaScript charting library. It provides rich facilities for charting time-series data in R
 * [Visualize Large Data](http://spark.rstudio.com/taxiDemoH2O.nb.html#visualize) 
 
 
