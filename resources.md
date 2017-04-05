@@ -26,6 +26,9 @@ You can find a lot of study materials about R and data science all over the inte
 ## Parallel processing in R 
 * [Microsoft R Open & MKL](https://mran.microsoft.com/download/) - seamless use of more than one cpu core
 
+## Working with medium data (still fit in RAM, but slow with dplyr)
+* [data.table](https://s3.amazonaws.com/assets.datacamp.com/img/blog/data+table+cheat+sheet.pdf) package
+
 ## Working with Big data (located in cluster)
 * sparklyr: [R interface for Apache Spark](http://spark.rstudio.com/index.html) 
 * rsparkling: [Sparkling Water (H2O) Machine Learning, including deep learning](http://spark.rstudio.com/h2o.html)
@@ -37,6 +40,7 @@ You can find a lot of study materials about R and data science all over the inte
 * [plotly](https://plot.ly/ggplot2/) - making ggplot2 interactive
 * [ggvis](http://ggvis.rstudio.com/0.1/ggvis-basics.html) - interactive plots (Behind the scenes, interactive plots are built with shiny, and you can currently only have one running at a time in a given R session)
 * [dygraph](https://rstudio.github.io/dygraphs/) - R interface to the dygraphs JavaScript charting library. It provides rich facilities for charting time-series data in R
+* [ggpubr](http://www.sthda.com/english/wiki/ggpubr-r-package-ggplot2-based-publication-ready-plots#at_pco=smlwn-1.0&at_si=58e452e3ade9d20c&at_ab=per-2&at_pos=0&at_tot=1) - modified ggplot2 for publication ready plots
 * [Visualize Large Data](http://spark.rstudio.com/taxiDemoH2O.nb.html#visualize) 
 
 
