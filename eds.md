@@ -19,7 +19,7 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 * Small group allowing to organize learning of material through practice
 * We are inviting to apply PhD students, Postdocs, and other recent PhD graduates
-* Now you can apply for Spring 2017 batch (end of April - May)
+* Now you can apply for Spring 2017 batch (May)
 * Format: 5 consecutive Saturdays or Sundays (specific dates TBA)
 * Location: Princeton, NJ
 

@@ -130,20 +130,18 @@
   <article class="post-content">
     <h2 id="load-libraries">Load libraries</h2>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">httr</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">httpuv</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">jsonlite</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+<div class="language-r highlighter-rouge"><span class="n">library</span><span class="p">(</span><span class="n">httr</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">httpuv</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">jsonlite</span><span class="p">);</span><span class="w"> </span><span class="n">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span><span class="w">
+</span></div>
 
 <h2 id="load-keys-and-other-autorizaiton-information">Load keys and other autorizaiton information</h2>
 
 <p>Inside this file you will have something like this: (example with arbitrary values - you should obtain working values for <a href="https://www.yelp.com/developers/api_console">yelp API</a> and specify them inside the file)</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">consumerKey_Yelp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"alsdfjl34l23kj"</span><span class="w">
+<div class="language-r highlighter-rouge"><span class="n">consumerKey_Yelp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"alsdfjl34l23kj"</span><span class="w">
 </span><span class="n">consumerSecret_Yelp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"lsdfkjslkj3"</span><span class="w">
 </span><span class="n">token_Yelp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"lsadkfjwejf"</span><span class="w">
 </span><span class="n">token_secret_Yelp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"alsdkfjasldkfj"</span><span class="w">
-</span></code></pre>
-</div>
+</span></div>
 
 <h2 id="getting-data-from-yelp">Getting data from Yelp</h2>
 
@@ -156,7 +154,7 @@
   <li><a href="https://www.yelp.com/developers/documentation/v2/search_api">All parameters available in Yelp search API</a>.</li>
 </ul>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1"># authorization
+<div class="language-r highlighter-rouge"><span class="c1"># authorization
 </span><span class="n">myapp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">oauth_app</span><span class="p">(</span><span class="s2">"YELP"</span><span class="p">,</span><span class="w"> </span><span class="n">key</span><span class="o">=</span><span class="n">consumerKey_Yelp</span><span class="p">,</span><span class="w"> </span><span class="n">secret</span><span class="o">=</span><span class="n">consumerSecret_Yelp</span><span class="p">)</span><span class="w">
 </span><span class="n">sig</span><span class="o">=</span><span class="n">sign_oauth1.0</span><span class="p">(</span><span class="n">myapp</span><span class="p">,</span><span class="w"> </span><span class="n">token</span><span class="o">=</span><span class="n">token_Yelp</span><span class="p">,</span><span class="n">token_secret</span><span class="o">=</span><span class="n">token_secret_Yelp</span><span class="p">)</span><span class="w">
 
@@ -170,12 +168,11 @@
                   </span><span class="s2">"&amp;term="</span><span class="p">,</span><span class="w"> </span><span class="n">term</span><span class="p">)</span><span class="w">
 
 </span><span class="n">loaded_data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">GET</span><span class="p">(</span><span class="n">yelpurl</span><span class="p">,</span><span class="w"> </span><span class="n">sig</span><span class="p">)</span><span class="w"> </span><span class="c1"># use verbose() inside GET for more details
-</span></code></pre>
-</div>
+</span></div>
 
 <h2 id="reformat-the-data-to-a-convinient-format">Reformat the data to a convinient format</h2>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">loaded_data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># use names(loaded_data) to see what this object contains
+<div class="language-r highlighter-rouge"><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">loaded_data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># use names(loaded_data) to see what this object contains
 </span><span class="w">  </span><span class="n">content</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">   </span><span class="c1"># extract only content from loaded_data objects
 </span><span class="w">  </span><span class="n">jsonlite</span><span class="o">::</span><span class="n">toJSON</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">  
   </span><span class="n">jsonlite</span><span class="o">::</span><span class="n">fromJSON</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
@@ -183,18 +180,16 @@
 
 </span><span class="c1"># Explore data
 # View(df)
-</span></code></pre>
-</div>
+</span></div>
 
 <h3 id="list-to-vector">List to vector</h3>
 
 <p>Some variables in data frame are represented as a list. Let us convert one of them to vector</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">str</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">businesses.categories</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+<div class="language-r highlighter-rouge"><span class="n">str</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">businesses.categories</span><span class="p">)</span><span class="w">
+</span></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## List of 12
+<div class="highlighter-rouge">## List of 12
 ##  $ : chr [1, 1:2, 1] "Women's Clothing" "womenscloth"
 ##  $ : chr [1:3, 1:2, 1] "Home Decor" "Arts &amp; Crafts" "Antiques" "homedecor" ...
 ##  $ : chr [1, 1:2, 1] "Shopping Centers" "shoppingcenters"
@@ -207,10 +202,9 @@
 ##  $ : chr [1, 1:2, 1] "Cosmetics &amp; Beauty Supply" "cosmetics"
 ##  $ : chr [1, 1:2, 1] "Fashion" "fashion"
 ##  $ : chr [1:2, 1:2, 1] "Used, Vintage &amp; Consignment" "Thrift Stores" "vintage" "thrift_stores"
-</code></pre>
 </div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span><span class="w">
+<div class="language-r highlighter-rouge"><span class="n">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span><span class="w">
 
 </span><span class="n">df</span><span class="o">$</span><span class="n">businesses.categories</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">businesses.categories</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
   </span><span class="n">lapply</span><span class="p">(</span><span class="n">as.vector</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
@@ -220,10 +214,9 @@
 </span><span class="w">  </span><span class="n">sapply</span><span class="p">(</span><span class="n">str_c</span><span class="p">,</span><span class="w"> </span><span class="n">collapse</span><span class="w"> </span><span class="o">=</span><span class="s2">", "</span><span class="p">)</span><span class="w">
 
 </span><span class="n">df</span><span class="o">$</span><span class="n">businesses.categories</span><span class="w">
-</span></code></pre>
-</div>
+</span></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>##  [1] "women'sclothing, womenscloth"                                                          
+<div class="highlighter-rouge">##  [1] "women'sclothing, womenscloth"                                                          
 ##  [2] "homedecor, arts&amp;crafts, antiques, artsandcrafts"                                       
 ##  [3] "shoppingcenters"                                                                       
 ##  [4] "shoppingcenters, foodcourt, culturalcenter, food_court"                                
@@ -235,7 +228,6 @@
 ## [10] "cosmetics&amp;beautysupply, cosmetics"                                                     
 ## [11] "fashion"                                                                               
 ## [12] "used,vintage&amp;consignment, thriftstores, vintage, thrift_stores"
-</code></pre>
 </div>
 
 <p>Of course, some subsequent cleaning will be needed. For example “and” and “&amp;” should be treated equally, etc.</p>

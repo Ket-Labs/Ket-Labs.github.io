@@ -4,9 +4,9 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 * Small group allowing to organize learning of material through practice
 * We are inviting to apply PhD students, Postdocs, and other recent PhD graduates
-* Now you can apply for Spring 2017 batch (end of April - May)
+* Now you can apply for Spring 2017 batch (May)
 * Format: 5 consecutive Saturdays or Sundays (specific dates TBA)
-* Training is offered at two locations: NYC, NY and Princeton, NJ
+* Training location: Princeton University Campus
 
 
 ## Throughout the course the participants work in:
@@ -30,11 +30,10 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 ## Cost and more information: 
 
-* Non-profit approach allows us to keep the cost at only 1/3 of similar programs
+* This program is free for participants
 
 * Information and an application form are available on the program's website 
 www.ket-labs.com/eds/
 
 * EDS training is supported by [Pivigo](https://www.pivigo.com/), offering Europe’s largest data science training program [S2DS](http://www.s2ds.org/) 
-
 
