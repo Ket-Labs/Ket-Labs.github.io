@@ -5,7 +5,7 @@ permalink: /eds/
 ---
 
 <p style="text-align: right;  font-weight: bold;">
-<a href="javascript:void( window.open('https://form.jotform.com/70565679110155', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate (Spring 2017 batch)</a>
+<a href="javascript:void( window.open('https://form.jotform.com/70565679110155', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply to participate</a>
 </p>
 
 
@@ -19,9 +19,7 @@ Essentials of Data Science (EDS) training is designed to bring PhD level researc
 
 * Small group allowing to organize learning of material through practice
 * We are inviting to apply PhD students, Postdocs, and other recent PhD graduates
-* Now you can apply for Spring 2017 batch (May)
-* Format: 5 consecutive Saturdays or Sundays (specific dates TBA)
-* Location: Princeton, NJ
+* Format: 5 consecutive Saturdays or Sundays
 
 ## Instructors
 
