@@ -28,4 +28,4 @@ __Ket Labs is devoted to promote the use of modern data science tools in traditi
 
 * We provide continued support for a project development after EDS training
 
-* Many of our students landed on Data Science positions after finishing their academic carrier or extended their training by participating in such programs as [S2DS bootcamp](http://www.s2ds.org/){:target="_blank"} organized by our partner [Pivigo](https://www.pivigo.com/){:target="_blank"} or [Insight](http://insightdatascience.com/){:target="_blank"}. 
+* Many of our students landed on Data Science positions after finishing their academic carrier or extended their training by participating in such programs as [S2DS bootcamp](http://www.s2ds.org/){:target="_blank"} or [Insight](http://insightdatascience.com/){:target="_blank"}. 
