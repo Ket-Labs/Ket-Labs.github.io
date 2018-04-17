@@ -4,7 +4,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/old_posts/2015-08-16-welcome-to-jekyll</loc>
+      <loc>http://localhost:5000/old_posts/2015-08-16-welcome-to-jekyll</loc>
       
         <lastmod>2015-08-16T11:36:27-04:00</lastmod>
       
@@ -19,7 +19,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/old_posts/2016-03-22-test-markdown-post</loc>
+      <loc>http://localhost:5000/old_posts/2016-03-22-test-markdown-post</loc>
       
         <lastmod>2016-03-20T11:36:27-04:00</lastmod>
       
@@ -34,7 +34,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/new_posts/4_quadrants_of_science.Rmd</loc>
+      <loc>http://localhost:5000/new_posts/4_quadrants_of_science.Rmd</loc>
       
         <lastmod>2016-12-24T00:00:00-05:00</lastmod>
       
@@ -49,24 +49,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/community/</loc>
+      <loc>http://localhost:5000/community/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.ket-labs.com/compare/</loc>
-      
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,7 +64,22 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/data_from_web_NYTimes.Rmd</loc>
+      <loc>http://localhost:5000/compare/</loc>
+      
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:5000/resources/data_from_web_NYTimes.Rmd</loc>
       
         <lastmod>2016-10-05T00:00:00-04:00</lastmod>
       
@@ -94,7 +94,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/data_from_web_Twitter.Rmd</loc>
+      <loc>http://localhost:5000/resources/data_from_web_Twitter.Rmd</loc>
       
         <lastmod>2016-10-05T00:00:00-04:00</lastmod>
       
@@ -109,7 +109,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/new_posts/data_from_web_google_bigquery.Rmd</loc>
+      <loc>http://localhost:5000/new_posts/data_from_web_google_bigquery.Rmd</loc>
       
         <lastmod>2016-12-28T00:00:00-05:00</lastmod>
       
@@ -124,7 +124,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/data_from_web_yelp.Rmd</loc>
+      <loc>http://localhost:5000/resources/data_from_web_yelp.Rmd</loc>
       
         <lastmod>2016-10-05T00:00:00-04:00</lastmod>
       
@@ -139,24 +139,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/data_from_web_yelp/</loc>
+      <loc>http://localhost:5000/resources/data_from_web_yelp/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.ket-labs.com/ds_in_science/</loc>
-      
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -169,24 +154,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/eds/</loc>
+      <loc>http://localhost:5000/ds_in_science/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.ket-labs.com/events/</loc>
-      
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -199,24 +169,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/examples/</loc>
+      <loc>http://localhost:5000/eds/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.ket-labs.com/feed.xml</loc>
-      
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -229,7 +184,52 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/new_posts/get_data_from_web.Rmd</loc>
+      <loc>http://localhost:5000/events/</loc>
+      
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:5000/examples/</loc>
+      
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:5000/feed.xml</loc>
+      
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:5000/new_posts/get_data_from_web.Rmd</loc>
       
         <lastmod>2016-10-05T00:00:00-04:00</lastmod>
       
@@ -244,24 +244,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/</loc>
+      <loc>http://localhost:5000/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.ket-labs.com/css/main.css</loc>
-      
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -274,7 +259,22 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/new_posts/plotting,%20sharing,%20interaction.Rmd</loc>
+      <loc>http://localhost:5000/css/main.css</loc>
+      
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:5000/new_posts/plotting,%20sharing,%20interaction.Rmd</loc>
       
         <lastmod>2016-12-24T00:00:00-05:00</lastmod>
       
@@ -289,9 +289,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/</loc>
+      <loc>http://localhost:5000/resources/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -304,7 +304,7 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/shiny_publishing_options.Rmd</loc>
+      <loc>http://localhost:5000/resources/shiny_publishing_options.Rmd</loc>
       
         <lastmod>2016-12-29T00:00:00-05:00</lastmod>
       
@@ -319,9 +319,9 @@
   
     
     <url>
-      <loc>http://www.ket-labs.com/resources/shiny_publishing_options/</loc>
+      <loc>http://localhost:5000/resources/shiny_publishing_options/</loc>
       
-        <lastmod>2017-06-20T12:22:21-04:00</lastmod>
+        <lastmod>2018-04-17T10:02:46-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

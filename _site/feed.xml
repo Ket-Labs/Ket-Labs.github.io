@@ -4,11 +4,11 @@
     <title>Ket Labs</title>
     <description>Bridging the gap between Academic Research and Data Science
 </description>
-    <link>http://www.ket-labs.com/</link>
-    <atom:link href="http://www.ket-labs.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Jun 2017 12:22:21 -0400</pubDate>
-    <lastBuildDate>Tue, 20 Jun 2017 12:22:21 -0400</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>http://localhost:5000/</link>
+    <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Apr 2018 10:02:46 -0400</pubDate>
+    <lastBuildDate>Tue, 17 Apr 2018 10:02:46 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
     
   </channel>
 </rss>

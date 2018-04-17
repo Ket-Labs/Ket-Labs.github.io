@@ -14,8 +14,8 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.ket-labs.com/resources/shiny_publishing_options/">
-  <link rel="alternate" type="application/rss+xml" title="Ket Labs" href="http://www.ket-labs.com/feed.xml" />
+  <link rel="canonical" href="http://localhost:5000/resources/shiny_publishing_options/">
+  <link rel="alternate" type="application/rss+xml" title="Ket Labs" href="http://localhost:5000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -77,6 +77,11 @@
     
     
      <li><a href="/resources/" class="page-link">Resources</a>
+    
+    </li>
+    
+    
+     <li><a href="/ds_in_science/" class="page-link">Data Science in Science</a>
     
     </li>
     
@@ -180,8 +185,8 @@
   <li>To generate ssh key-pairs <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2">(Linux, Mac)</a> (you can find instructions for Windows as well):</li>
 </ul>
 
-<div class="language-r highlighter-rouge"><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span><span class="w"> </span><span class="o">-</span><span class="n">t</span><span class="w"> </span><span class="n">rsa</span><span class="w">
-</span></div>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span><span class="w"> </span><span class="o">-</span><span class="n">t</span><span class="w"> </span><span class="n">rsa</span><span class="w">
+</span></code></pre></div></div>
 
 <ul>
   <li>
@@ -192,8 +197,8 @@
   </li>
 </ul>
 
-<div class="language-r highlighter-rouge"><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">your_local_user</span><span class="o">/</span><span class="n">.ssh</span><span class="o">/</span><span class="n">id_rsa.pub</span><span class="w">
-</span></div>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">your_local_user</span><span class="o">/</span><span class="n">.ssh</span><span class="o">/</span><span class="n">id_rsa.pub</span><span class="w">
+</span></code></pre></div></div>
 
 <ul>
   <li>
@@ -204,26 +209,26 @@
   </li>
 </ul>
 
-<div class="language-r highlighter-rouge"><span class="n">sudo</span><span class="w"> </span><span class="n">su</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">"R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""</span><span class="w">
-</span></div>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sudo</span><span class="w"> </span><span class="n">su</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">"R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""</span><span class="w">
+</span></code></pre></div></div>
 
 <ul>
   <li>Use the same way as in step 6 to install R packages many users are going to use - to install them in global directory. For example ggplot2</li>
 </ul>
 
-<div class="language-r highlighter-rouge"><span class="n">sudo</span><span class="w"> </span><span class="n">su</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">"R -e \"install.packages('ggplot2', repos='http://cran.rstudio.com/')\""</span><span class="w">
-</span></div>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sudo</span><span class="w"> </span><span class="n">su</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="o">-</span><span class="n">c</span><span class="w"> </span><span class="s2">"R -e \"install.packages('ggplot2', repos='http://cran.rstudio.com/')\""</span><span class="w">
+</span></code></pre></div></div>
 <p>Again, if there is a warning with “non zero status”, just run it again</p>
 
 <ul>
   <li>Step 8.2 is really optional. You can just use FileZilla program or <a href="http://www.hypexr.org/linux_scp_help.php">scp command in your local terminal</a></li>
 </ul>
 
-<div class="language-r highlighter-rouge"><span class="c1">#Copy the file "ui.R" from a remote host to the local host
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Copy the file "ui.R" from a remote host to the local host</span><span class="w">
 </span><span class="o">$</span><span class="w"> </span><span class="n">scp</span><span class="w"> </span><span class="n">your_username</span><span class="o">@</span><span class="n">ip_address</span><span class="o">:/</span><span class="n">srv</span><span class="o">/</span><span class="n">shiny</span><span class="o">-</span><span class="n">server</span><span class="o">/</span><span class="n">app1</span><span class="o">/</span><span class="n">ui.R</span><span class="w"> </span><span class="o">/</span><span class="n">some</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">directory</span><span class="w">
-</span><span class="c1">#Copy the file "foobar.txt" from the local host to a remote host
+</span><span class="c1">#Copy the file "foobar.txt" from the local host to a remote host</span><span class="w">
 </span><span class="o">$</span><span class="w"> </span><span class="n">scp</span><span class="w"> </span><span class="n">ui.R</span><span class="w"> </span><span class="n">your_username</span><span class="o">@</span><span class="n">ip_address</span><span class="o">:/</span><span class="n">srv</span><span class="o">/</span><span class="n">shiny</span><span class="o">-</span><span class="n">server</span><span class="o">/</span><span class="n">app1</span><span class="o">/</span><span class="w">
-</span></div>
+</span></code></pre></div></div>
 
 <h3 id="ssl-free">SSL (free)</h3>
 <p>If you have your own domain and direct it with your server, you can set up SSL certificate. This is recommended, if you are going to use some sort of authorization in web-browser, for example if you did install R studio server and are going to login using browser (or other programs, for project management, etc.).</p>

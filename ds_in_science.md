@@ -18,6 +18,8 @@ Here you can find some examples of usage of data science and machine learning in
 
 * [Creating an artificial nose using machine learning](http://machinelearningcoach.com/artificial-nose-using-machine-learning)
 
+* [Artificial intelligence accelerates discovery of metallic glass](https://phys.org/news/2018-04-artificial-intelligence-discovery-metallic-glass.html?utm_source=nwletter&utm_medium=email&utm_campaign=daily-nwletter)
+
 
 ### Machine learning in Spectrometry
 * [A Machine Learning Application for
@@ -34,6 +36,8 @@ Classification of Chemical Spectra](https://www.analyzeiq.com/publications/ai200
 * [Machine learning applications in genetics and genomics](http://www.nature.com/nrg/journal/v16/n6/full/nrg3920.html)
 
 ## Physics
+
+* [Gravity Waves](https://phys.org/news/2018-04-machine-gravitational.html?utm_source=nwletter&utm_medium=email&utm_campaign=weekly-nwletter)
 
 ### Nuclear Energy 
 
@@ -66,4 +70,5 @@ Classification of Chemical Spectra](https://www.analyzeiq.com/publications/ai200
 * [CrowDanalytix](https://www.crowdanalytix.com/community)
 * [Kaggle](https://www.kaggle.com/competitions?sortBy=deadline&group=all&page=1&segment=allCategories)
 * [Tunedit](http://tunedit.org/challenges)
+
 
