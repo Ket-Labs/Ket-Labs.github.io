@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Getting Data from Web"
+author: "S.Samsonau"
+date: "October 5, 2016"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+
+```{r message=F}
+library(rtimes); library(dplyr)
+```
+
+## Load keys and other autorizaiton information
+
+```{r echo=F}
+source("../../internet_autorizations.R")
+```
+
+Inside this file you will have something like this: (example with arbitrary values - you should obtain working values from [NYTimes API](https://developer.nytimes.com/) and specify them inside the file)
+
+```{r, eval=F}
+api_NYTimes = "lasdfkj3lj82348u38lsfjksldkfj832"
+```
+
+## Getting data from NYTimes
+
+Bellow we provide a minimum working example. More information you can find here:
+
+* General idea about the data you can get from Yelp [here](https://developer.nytimes.com/faq)
+* [how to formulate a query for request](https://developer.nytimes.com/article_search_v2.json) - Look to see various parameters meaning, and allowed values
+* [rtimes vignette](https://cran.r-project.org/web/packages/rtimes/vignettes/rtimes_vignette.html)
+* [other example](http://web.stanford.edu/~cengel/cgi-bin/anthrospace/wp-content/uploads/2009/09/scrapeNYT_API2.txt)
+
+
+```{r}
+q_1 <- "politics+US" # Query string, use + instead of space
+q_2 <- "politics+EU"
+
+records <- 120 # how many results do we want? (note limitations)
+pageRange <- 0:(records/10-1) # every page gives 10 results
+
+text_vector_1 <- character()
+
+for (i in pageRange) {
+  temp_result <- as_search(q = q_1, 
+                   fl = c("snippet"), 
+                   key = api_NYTimes, 
+                   page = i)
+  text_vector_1 <- c(text_vector_1, unlist(temp_result$data$docs))
+}
+length(text_vector_1) 
+
+text_vector_1
+```
+
